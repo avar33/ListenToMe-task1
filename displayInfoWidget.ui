@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>displayReccWidget</class>
+ <widget class="QWidget" name="displayReccWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Terminal</family>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>79</x>
+     <y>30</y>
+     <width>242</width>
+     <height>221</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <property name="sizeConstraint">
+     <enum>QLayout::SizeConstraint::SetFixedSize</enum>
+    </property>
+    <item>
+     <widget class="QGraphicsView" name="image"/>
+    </item>
+    <item alignment="Qt::AlignmentFlag::AlignHCenter">
+     <widget class="QLabel" name="name">
+      <property name="font">
+       <font>
+        <family>Terminal</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Mock Name</string>
+      </property>
+     </widget>
+    </item>
+    <item alignment="Qt::AlignmentFlag::AlignHCenter">
+     <widget class="QLabel" name="artistGenres">
+      <property name="text">
+       <string>artist - genre, genre</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="descriptors">
+      <property name="text">
+       <string>| happy | bubbly | nostalgic |</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

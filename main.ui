@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="3" column="0">
+     <widget class="QScrollArea" name="scrollArea">
+      <property name="widgetResizable">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="scrollAreaWidgetContents">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>780</width>
+         <height>278</height>
+        </rect>
+       </property>
+       <widget class="QWidget" name="gridLayoutWidget">
+        <property name="geometry">
+         <rect>
+          <x>19</x>
+          <y>19</y>
+          <width>741</width>
+          <height>241</height>
+         </rect>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_3"/>
+       </widget>
+      </widget>
+     </widget>
+    </item>
+    <item row="2" column="0" alignment="Qt::AlignmentFlag::AlignHCenter">
+     <widget class="QPushButton" name="searchButton">
+      <property name="maximumSize">
+       <size>
+        <width>782</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Terminal</family>
+       </font>
+      </property>
+      <property name="text">
+       <string>    Search!    </string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0" alignment="Qt::AlignmentFlag::AlignHCenter">
+     <widget class="QLabel" name="label">
+      <property name="font">
+       <font>
+        <family>Bahnschrift</family>
+        <pointsize>8</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>click search to see music that fits your selections!</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item alignment="Qt::AlignmentFlag::AlignHCenter">
+       <widget class="QLabel" name="title">
+        <property name="font">
+         <font>
+          <family>Terminal</family>
+          <pointsize>14</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Listen to Me!</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label2">
+        <property name="font">
+         <font>
+          <family>Bahnschrift</family>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>please select what type of reccomendations you'd like:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QCheckBox" name="artistBox">
+          <property name="text">
+           <string>artists</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="songsBox">
+          <property name="text">
+           <string>songs</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <spacer name="horizontalSpacer_2">
+          <property name="orientation">
+           <enum>Qt::Orientation::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QLabel" name="instruction1">
+        <property name="font">
+         <font>
+          <family>Bahnschrift</family>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>please select 3-5 musical prefrences below:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QGridLayout" name="gridLayout_2">
+        <item row="0" column="3" alignment="Qt::AlignmentFlag::AlignHCenter">
+         <widget class="QCheckBox" name="checkBox_6">
+          <property name="text">
+           <string>CheckBox</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="1" alignment="Qt::AlignmentFlag::AlignHCenter">
+         <widget class="QCheckBox" name="checkBox_15">
+          <property name="text">
+           <string>CheckBox</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="3">
+         <widget class="QCheckBox" name="checkBox_22">
+          <property name="text">
+           <string>CheckBox</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="0" alignment="Qt::AlignmentFlag::AlignHCenter">
+         <widget class="QCheckBox" name="checkBox_10">
+          <property name="text">
+           <string>CheckBox</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="1" alignment="Qt::AlignmentFlag::AlignHCenter">
+         <widget class="QCheckBox" name="checkBox_14">
+          <property name="text">
+           <string>CheckBox</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="3">
+         <widget class="QCheckBox" name="checkBox_24">
+          <property name="text">
+           <string>CheckBox</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="2" alignment="Qt::AlignmentFlag::AlignHCenter">
+         <widget class="QCheckBox" name="checkBox_5">
+          <property name="text">
+           <string>CheckBox</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="4">
+         <widget class="QCheckBox" name="checkBox_28">
+          <property name="text">
+           <string>CheckBox</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="4" alignment="Qt::AlignmentFlag::AlignHCenter">
+         <widget class="QCheckBox" name="checkBox_7">
+          <property name="text">
+           <string>CheckBox</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="4">
+         <widget class="QCheckBox" name="checkBox_26">
+          <property name="text">
+           <string>CheckBox</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0" alignment="Qt::AlignmentFlag::AlignHCenter">
+         <widget class="QCheckBox" name="checkBox_3">
+          <property name="text">
+           <string>CheckBox</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0" alignment="Qt::AlignmentFlag::AlignHCenter">
+         <widget class="QCheckBox" name="checkBox_8">
+          <property name="text">
+           <string>CheckBox</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="1" alignment="Qt::AlignmentFlag::AlignHCenter">
+         <widget class="QCheckBox" name="checkBox_13">
+          <property name="text">
+           <string>CheckBox</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="3">
+         <widget class="QCheckBox" name="checkBox_23">
+          <property name="text">
+           <string>CheckBox</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1" alignment="Qt::AlignmentFlag::AlignHCenter">
+         <widget class="QCheckBox" name="checkBox_12">
+          <property name="text">
+           <string>CheckBox</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="2">
+         <widget class="QCheckBox" name="checkBox_19">
+          <property name="text">
+           <string>CheckBox</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="0" alignment="Qt::AlignmentFlag::AlignHCenter">
+         <widget class="QCheckBox" name="checkBox_9">
+          <property name="text">
+           <string>CheckBox</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="0" alignment="Qt::AlignmentFlag::AlignHCenter">
+         <widget class="QCheckBox" name="checkBox_11">
+          <property name="text">
+           <string>CheckBox</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="2">
+         <widget class="QCheckBox" name="checkBox_18">
+          <property name="text">
+           <string>CheckBox</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="3">
+         <widget class="QCheckBox" name="checkBox_21">
+          <property name="text">
+           <string>CheckBox</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1" alignment="Qt::AlignmentFlag::AlignHCenter">
+         <widget class="QCheckBox" name="checkBox_4">
+          <property name="text">
+           <string>CheckBox</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="4">
+         <widget class="QCheckBox" name="checkBox_27">
+          <property name="text">
+           <string>CheckBox</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="2">
+         <widget class="QCheckBox" name="checkBox_20">
+          <property name="text">
+           <string>CheckBox</string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="0" alignment="Qt::AlignmentFlag::AlignHCenter">
+         <widget class="QCheckBox" name="checkBox_16">
+          <property name="text">
+           <string>CheckBox</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="2">
+         <widget class="QCheckBox" name="checkBox_17">
+          <property name="text">
+           <string>CheckBox</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="4">
+         <widget class="QCheckBox" name="checkBox_25">
+          <property name="text">
+           <string>CheckBox</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
