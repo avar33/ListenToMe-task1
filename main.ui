@@ -178,9 +178,9 @@
      <colorrole role="Accent">
       <brush brushstyle="SolidPattern">
        <color alpha="255">
-        <red>255</red>
-        <green>255</green>
-        <blue>255</blue>
+        <red>85</red>
+        <green>0</green>
+        <blue>0</blue>
        </color>
       </brush>
      </colorrole>
@@ -351,9 +351,9 @@
      <colorrole role="Accent">
       <brush brushstyle="SolidPattern">
        <color alpha="255">
-        <red>255</red>
-        <green>255</green>
-        <blue>255</blue>
+        <red>85</red>
+        <green>0</green>
+        <blue>0</blue>
        </color>
       </brush>
      </colorrole>
@@ -514,10 +514,10 @@
      </colorrole>
      <colorrole role="Accent">
       <brush brushstyle="SolidPattern">
-       <color alpha="179">
-        <red>255</red>
-        <green>255</green>
-        <blue>255</blue>
+       <color alpha="255">
+        <red>85</red>
+        <green>0</green>
+        <blue>0</blue>
        </color>
       </brush>
      </colorrole>
@@ -561,20 +561,20 @@
          </rect>
         </property>
         <layout class="QGridLayout" name="displayGrid">
+         <item row="1" column="0">
+          <widget class="QWidget" name="widget_5" native="true"/>
+         </item>
          <item row="0" column="3">
           <widget class="QWidget" name="widget_4" native="true"/>
          </item>
-         <item row="0" column="1">
-          <widget class="QWidget" name="widget_2" native="true"/>
-         </item>
          <item row="0" column="2">
-          <widget class="QWidget" name="widget_3" native="true"/>
+          <widget class="QWidget" name="display3" native="true"/>
          </item>
          <item row="0" column="0">
-          <widget class="QWidget" name="widget" native="true"/>
+          <widget class="QWidget" name="display1" native="true"/>
          </item>
-         <item row="1" column="0">
-          <widget class="QWidget" name="widget_5" native="true"/>
+         <item row="0" column="1">
+          <widget class="QWidget" name="display2" native="true"/>
          </item>
         </layout>
        </widget>
@@ -792,7 +792,7 @@
           </property>
          </widget>
         </item>
-        <item row="3" column="2">
+        <item row="3" column="2" alignment="Qt::AlignmentFlag::AlignHCenter">
          <widget class="QCheckBox" name="checkBox_19">
           <property name="text">
            <string>CheckBox</string>
@@ -813,7 +813,7 @@
           </property>
          </widget>
         </item>
-        <item row="2" column="2">
+        <item row="2" column="2" alignment="Qt::AlignmentFlag::AlignHCenter">
          <widget class="QCheckBox" name="checkBox_18">
           <property name="text">
            <string>CheckBox</string>
@@ -841,7 +841,7 @@
           </property>
          </widget>
         </item>
-        <item row="4" column="2">
+        <item row="4" column="2" alignment="Qt::AlignmentFlag::AlignHCenter">
          <widget class="QCheckBox" name="checkBox_20">
           <property name="text">
            <string>CheckBox</string>
@@ -855,7 +855,7 @@
           </property>
          </widget>
         </item>
-        <item row="1" column="2">
+        <item row="1" column="2" alignment="Qt::AlignmentFlag::AlignHCenter">
          <widget class="QCheckBox" name="checkBox_17">
           <property name="text">
            <string>CheckBox</string>
