@@ -29,7 +29,7 @@
    </property>
    <layout class="QVBoxLayout" name="verticalLayout">
     <property name="sizeConstraint">
-     <enum>QLayout::SizeConstraint::SetFixedSize</enum>
+     <enum>QLayout::SizeConstraint::SetNoConstraint</enum>
     </property>
     <item>
      <widget class="QGraphicsView" name="image"/>
