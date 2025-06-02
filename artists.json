@@ -103,55 +103,55 @@
     "descriptors": ["experimental", "intense", "bass"]
   }
 ],
-"r&b": [
+"RnB": [
   {
     "artist": "Samara Cyn",
-    "genre": ["R&B"],
+    "genre": ["RnB"],
     "descriptors": ["lyrical", "emotional", "experimental"]
   },
   {
     "artist": "Leon Thomas",
-    "genre": ["R&B"],
+    "genre": ["RnB"],
     "descriptors": ["romantic", "lyrical", "emotional"]
   },
   {
     "artist": "Elmiene",
-    "genre": ["R&B"],
+    "genre": ["RnB"],
     "descriptors": ["emotional", "lyrical", "experimental"]
   },
   {
     "artist": "SadBoi",
-    "genre": ["R&B"],
+    "genre": ["RnB"],
     "descriptors": ["gritty", "experimental", "intense"]
   },
   {
     "artist": "Avenoir",
-    "genre": ["R&B"],
+    "genre": ["RnB"],
     "descriptors": ["romantic", "emotional", "lyrical"]
   },
   {
     "artist": "Keiyaa",
-    "genre": ["R&B"],
+    "genre": ["RnB"],
     "descriptors": ["lyrical", "gritty", "experimental"]
   },
   {
     "artist": "Sasha Keable",
-    "genre": ["R&B"],
+    "genre": ["RnB"],
     "descriptors": ["romantic", "emotional", "lyrical"]
   },
   {
     "artist": "Isaiah Falls",
-    "genre": ["R&B"],
+    "genre": ["RnB"],
     "descriptors": ["romantic", "emotional", "lyrical"]
   },
   {
     "artist": "Luci Rain",
-    "genre": ["R&B"],
+    "genre": ["RnB"],
     "descriptors": ["experimental", "lyrical", "emotional"]
   },
   {
     "artist": "Shaé Universe",
-    "genre": ["R&B"],
+    "genre": ["RnB"],
     "descriptors": ["gritty", "emotional", "lyrical"]
   }
 ],

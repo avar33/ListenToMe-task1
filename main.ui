@@ -681,7 +681,7 @@
          </font>
         </property>
         <property name="text">
-         <string>please select 3-5 musical prefrences below:</string>
+         <string>please select 3-6 musical prefrences below:</string>
         </property>
        </widget>
       </item>

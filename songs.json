@@ -207,73 +207,73 @@
   {
     "title": "Burning Blue",
     "artist": "Mariah the Scientist",
-    "genre": ["R&B"],
+    "genre": ["RnB"],
     "descriptors": ["relaxed", "emotional", "sad"]
   },
   {
     "title": "Alright",
     "artist": "Victoria Monét",
-    "genre": ["R&B"],
+    "genre": ["RnB"],
     "descriptors": ["upbeat", "gritty", "catchy"]
   },
   {
     "title": "Best Part",
     "artist": "Daniel Caesar ft. H.E.R.",
-    "genre": ["R&B"],
+    "genre": ["RnB"],
     "descriptors": ["romantic", "slow", "emotional"]
   },
   {
     "title": "Poison",
     "artist": "Brent Faiyaz",
-    "genre": ["R&B"],
+    "genre": ["RnB"],
     "descriptors": ["romantic", "slow", "gritty"]
   },
   {
     "title": "Butterflies Pt. 3",
     "artist": "Queen Naija",
-    "genre": ["R&B"],
+    "genre": ["RnB"],
     "descriptors": ["relaxed", "emotional", "romantic"]
   },
   {
     "title": "The One",
     "artist": "Jorja Smith",
-    "genre": ["R&B"],
+    "genre": ["RnB"],
     "descriptors": ["relaxed", "upbeat", "sad"]
   },
   {
     "title": "Favorite Jeans",
     "artist": "Free Party",
-    "genre": ["R&B"],
+    "genre": ["RnB"],
     "descriptors": ["relaxed", "upbeat", "romantic"]
   },
   {
     "title": "tears in the club",
     "artist": "FKA twigs & The Weeknd",
-    "genre": ["R&B"],
+    "genre": ["RnB"],
     "descriptors": ["upbeat", "lyrical", "experimental"]
   },
   {
     "title": "Can We Talk",
     "artist": "Tevin Campbell",
-    "genre": ["R&B"],
+    "genre": ["RnB"],
     "descriptors": ["romantic", "upbeat", "emotional"]
   },
   {
     "title": "Ordinary People",
     "artist": "John Legend",
-    "genre": ["R&B"],
+    "genre": ["RnB"],
     "descriptors": ["romantic", "slow", "emotional"]
   },
   {
     "title": "We Belong Together",
     "artist": "Mariah Carey",
-    "genre": ["R&B"],
+    "genre": ["RnB"],
     "descriptors": ["romantic", "emotional", "sad"]
   },
   {
     "title": "Adorn",
     "artist": "Miguel",
-    "genre": ["R&B"],
+    "genre": ["RnB"],
     "descriptors": ["upbeat", "romantic", "dancy"]
   },
   {
@@ -343,10 +343,10 @@
     "descriptors": ["bubbly", "upbeat", "dancy"]
   },
   {
-    "title": "Tondo",
-    "artist": "Disclosure & Eko Roosevelt",
-    "genre": ["Electronic"],
-    "descriptors": ["dancy", "upbeat", "happy"]
+    "title": "Besos En El Club",
+    "artist": "SoFTT",
+    "genre": ["Electronic", "Latin"],
+    "descriptors": ["dancy", "bubbly", "happy"]
   },
   {
     "title": "Go",
@@ -471,7 +471,7 @@
   {
     "title": "Bad Religion",
     "artist": "Frank Ocean",
-    "genre": ["Alternative", "R&B"],
+    "genre": ["Alternative", "RnB"],
     "descriptors": ["emotional", "intense", "experimental"]
   },
   {
