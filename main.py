@@ -6,18 +6,19 @@ from PySide6.QtWidgets import (
     QCheckBox,
     QMessageBox,
     QLabel,
-    QLCDNumber,
-    QLineEdit,
-    QMainWindow,
     QPushButton,
     QVBoxLayout,
     QHBoxLayout,
     QGridLayout,
     QWidget,
-    QSizePolicy
+    QSizePolicy, 
+    QGraphicsView, 
+    QGraphicsScene,
+    QGraphicsPixmapItem
 )
 
 from PySide6.QtUiTools import QUiLoader
+from PySide6.QtGui import QPixmap
 from functools import partial
 
 #GLOBAL VARIABLES
@@ -42,23 +43,54 @@ def readJSON(file, key):
 def searchClicked(artistBox, songsBox, checkboxes):
     setReccType(artistBox, songsBox)
     setPref(checkboxes)
-    songs = readJSON("songs.json", 'songs')
-    #for song in songs: 
-       # print(song["title"])
 
+    if displayWhat != [False, False] and preferences != []:
+        #if artists then search artist json
+        #if songs then search songs json
+        print("IN LOOP")
+        rankReccs()
+
+def rankReccs():
+    global displayWhat
+    global preferences
+    
+    if displayWhat[0] == True:
+        artists = readJSON("artists.json", 'artists')
+        ranked_artists = assignRanks(artists, preferences)
+        for artist, totalRank in ranked_artists:
+            print(f"{artist['artist']} - Score: {totalRank}")
+
+    if displayWhat[1] == True: #TODO: fix song selection
+        songs = readJSON("songs.json", 'songs')
+        ranked_songs = assignRanks(songs, preferences)
+        for song, totalRank in ranked_songs:
+            print(f"{song['song']} - Score: {totalRank}")
+
+def assignRanks(items, userChecked):
+    ranked = []
+    for item in items:
+        genreRank = len(set(item["genre"])& set(userChecked))
+        descRank = len(set(item["descriptors"])& set(userChecked))
+        totalRank = genreRank + descRank
+        if totalRank > 0:
+            ranked.append((item, totalRank))
+
+    ranked.sort(key=lambda x: x[1], reverse=True)
+    return ranked
 
 #extrapolates whatever type of reccomendation is picked 
 def setReccType(artistBox, songsBox):
-    temp = [False, False]
-    temp[0] = artistBox.isChecked()
-    temp[1]= songsBox.isChecked()
-    if(temp == [0,0]):
+    global displayWhat
+    displayWhat[0] = artistBox.isChecked()
+    displayWhat[1]= songsBox.isChecked()
+    if(displayWhat == [0,0]):
         createErrorAlert("Please select at least one box of the two labeled 'artists' and 'songs'")
-    else:
-        displayWhat = temp 
+    print(displayWhat)
 
 #extrapolated preferences 
 def setPref(checkboxes):
+    global preferences
+    preferences.clear()
     temp = []
     for checkbox in checkboxes:
         if checkbox.isChecked():
@@ -68,6 +100,7 @@ def setPref(checkboxes):
         createErrorAlert("The amount of boxes checked is not within range. Please select 3-6 musical preferences.")
     else:
         preferences = temp
+    print(preferences)
 
 #error message box 
 def createErrorAlert (msg):
@@ -77,12 +110,6 @@ def createErrorAlert (msg):
     msg_box.setWindowTitle("Error")
     msg_box.exec()
 #----------------------------------------------------------------
-#access global variables 
-def returnDisplayWhat():
-    return displayWhat
-
-def returnPreferences():
-    return preferences
 #--------------------------------------------------------------------------------------------------------------
 
 #LOAD APPLICATION 
@@ -96,19 +123,12 @@ selectionWindow = loader.load("main.ui", None)
 descriptors = readJSON("data.json", 'descriptors')
 
 artistBox = selectionWindow.findChild(QCheckBox, "artistBox")
-if artistBox:
-    print("aBox found")
 songsBox = selectionWindow.findChild(QCheckBox, "songsBox")
-if songsBox:
-    print("sBox found")
 
 searchButton = selectionWindow.findChild(QPushButton, "searchButton")
-if searchButton:
-    print("button found")
     
 prefGrid = selectionWindow.findChild(QGridLayout, "preferenceGrid")
 if prefGrid:
-    print("prefGrid found")
     cols = 5 
     for i, descriptor in enumerate(descriptors):
         row = i // cols
@@ -123,15 +143,36 @@ displayGrid = selectionWindow.findChild(QGridLayout, "displayGrid")
 if displayGrid:
     print("displayGrid found")
 
-displayInfoWidget = loader.load("displayInfoWidget.ui", selectionWindow)
-displayInfoWidget.setSizePolicy(QSizePolicy.MinimumExpanding, QSizePolicy.MinimumExpanding)
-if displayInfoWidget:
-    print("displayInfoW found")
-    displayInfoWidget.setStyleSheet("background-color: lightblue;")
+for i in range(4):
+    '''
+    displayInfoWidget = loader.load("displayInfoWidget.ui", selectionWindow)
+    displayInfoWidget.setSizePolicy(QSizePolicy.MinimumExpanding, QSizePolicy.MinimumExpanding)
+    if displayInfoWidget:
+        print("displayInfoW found")
+        displayInfoWidget.setStyleSheet("background-color: lightblue;")
+    '''
+    displayInfoWidget = QVBoxLayout()
+    scene = QGraphicsScene()
+    pixmap = QPixmap("TaylorSwift.jpg")
+    item = QGraphicsPixmapItem(pixmap)
+    scene.addItem(item)
+    image = QGraphicsView()
+    image.setScene(scene)
+    image.show()
+    mainLabel = QLabel("mock name")
+    artist_genre = QLabel("artist - genre")
+    descLabel = QLabel("word | word | word")
+    displayInfoWidget.addWidget(image)
+    displayInfoWidget.addWidget(mainLabel)
+    displayInfoWidget.addWidget(artist_genre)
+    displayInfoWidget.addWidget(descLabel)
 
-#TODO: resize display and add properly
-displayGrid.addWidget(displayInfoWidget, 0, 0)
-#displayGrid.addWidget(displayInfoWidget, 1,0)
+    # Wrap layout in a QWidget
+    container = QWidget()
+    container.setLayout(displayInfoWidget) 
+
+    # Now you can add the widget to the grid
+    displayGrid.addWidget(container, 0, i)
 
 selectionWindow.show()
 app.exec()

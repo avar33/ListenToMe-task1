@@ -557,26 +557,10 @@
           <x>19</x>
           <y>19</y>
           <width>741</width>
-          <height>241</height>
+          <height>351</height>
          </rect>
         </property>
-        <layout class="QGridLayout" name="displayGrid">
-         <item row="1" column="0">
-          <widget class="QWidget" name="widget_5" native="true"/>
-         </item>
-         <item row="0" column="3">
-          <widget class="QWidget" name="widget_4" native="true"/>
-         </item>
-         <item row="0" column="2">
-          <widget class="QWidget" name="display3" native="true"/>
-         </item>
-         <item row="0" column="0">
-          <widget class="QWidget" name="display1" native="true"/>
-         </item>
-         <item row="0" column="1">
-          <widget class="QWidget" name="display2" native="true"/>
-         </item>
-        </layout>
+        <layout class="QGridLayout" name="displayGrid"/>
        </widget>
       </widget>
      </widget>

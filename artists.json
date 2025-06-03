@@ -1,5 +1,5 @@
 {
-"pop":[
+  "artists":[
   {
     "artist": "Taylor Swift",
     "genre": ["Pop"],
@@ -49,9 +49,7 @@
     "artist": "Sam Smith",
     "genre": ["Pop"],
     "descriptors": ["sad", "lyrical", "romantic"]
-  }
-], 
-"hip-hop": [
+  }, 
   {
     "artist": "1100 Himself",
     "genre": ["Hip-Hop"],
@@ -101,9 +99,7 @@
     "artist": "Hanumankind",
     "genre": ["Hip-Hop"],
     "descriptors": ["experimental", "intense", "bass"]
-  }
-],
-"RnB": [
+  },
   {
     "artist": "Samara Cyn",
     "genre": ["RnB"],
@@ -153,9 +149,7 @@
     "artist": "Shaé Universe",
     "genre": ["RnB"],
     "descriptors": ["gritty", "emotional", "lyrical"]
-  }
-],
-"electronic": [
+  },
  {
     "artist": "Rusowsky",
     "genre": ["Electronic"],
@@ -200,9 +194,7 @@
     "artist": "p-rallel",
     "genre": ["Electronic"],
     "descriptors": ["catchy", "upbeat", "dancy"]
-  }
-],
-"rock": [
+  },
   {
     "artist": "Foo Fighters",
     "genre": ["Rock"],
@@ -210,7 +202,7 @@
   },
   {
     "artist": "Arctic Monkeys",
-    "genre": ["Rock"],
+    "genre": ["Rock", "Alternative"],
     "descriptors": ["nostalgic", "lyrical", "gritty"]
   },
   {
@@ -235,7 +227,7 @@
   },
   {
     "artist": "Paramore",
-    "genre": ["Rock"],
+    "genre": ["Rock", "Alternative"],
     "descriptors": ["catchy", "emotional", "upbeat"]
   },
   {
@@ -252,9 +244,7 @@
     "artist": "Red Hot Chili Peppers",
     "genre": ["Rock"],
     "descriptors": ["experimental", "bass", "relaxed"]
-  }
-], 
-"alternative": [
+  }, 
   {
     "artist": "Tame Impala",
     "genre": ["Alternative"],
@@ -294,9 +284,7 @@
     "artist":"Phoebe Bridgers",
     "genre": ["Alternative"],
     "descriptors": ["sad", "lyrical", "slow"]
-  }
-], 
-"indie":[
+  }, 
   {
     "artist": "Florence + The Machine",
     "genre": ["Indie"],
@@ -356,9 +344,7 @@
     "artist": "Rex Orange County",
     "genre": ["Indie"],
     "descriptors": ["bubbly", "light-hearted", "catchy"]
-  }
-], 
-"country":[
+  }, 
   {
     "artist": "Morgan Wallen",
     "genre": ["Country"],
@@ -408,9 +394,7 @@
     "artist": "Dierks Bentley",
     "genre": ["Country"],
     "descriptors": ["nostalgic", "relaxed", "lyrical"]
-  }
-], 
-"latin": [
+  }, 
   {
     "artist": "Bad Gyal",
     "genre": ["Latin"],
@@ -473,7 +457,7 @@
   },
   {
     "artist": "Camila Cabello",
-    "genre": ["Latin"],
+    "genre": ["Latin", "Pop"],
     "descriptors": ["bubbly", "romantic", "happy"]
   },
   {
@@ -485,9 +469,7 @@
     "artist": "Arca",
     "genre": ["Latin"],
     "descriptors": ["intense", "experimental", "loud"]
-  }
-], 
-"kpop": [
+  }, 
   {
     "artist": "BTS",
     "genre": ["K-pop"],

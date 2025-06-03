@@ -15,7 +15,7 @@
     {
         "title": "DtMF",
         "artist": "Bad Bunny",
-        "genres": ["Pop", "Latin"],
+        "genre": ["Pop", "Latin"],
         "descriptors": ["relaxed", "emotional", "nostalgic"]
     },
     {
