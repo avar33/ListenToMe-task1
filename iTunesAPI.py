@@ -67,7 +67,7 @@ for artist in artists:
 
         if results["resultCount"] > 0:
             imageUrl = results["results"][0]["artworkUrl100"]
-            song["image"] = imageUrl.replace("100x100", "600x600")
+            artist["image"] = imageUrl.replace("100x100", "600x600")
         else:
             artist["image"] = "images/record.jpg"
     except Exception as e:

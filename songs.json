@@ -55,7 +55,7 @@
     },
     {
       "title": "APT.",
-      "artist": "ROS\u00c3\u2030 & Bruno Mars",
+      "artist": "ROSE & Bruno Mars",
       "genre": [
         "Pop",
         "K-pop"
@@ -65,10 +65,10 @@
         "catchy",
         "light-hearted"
       ],
-      "image": "images/record.jpg"
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2d/1a/7d/2d1a7d91-587e-0ceb-d434-327bd66d9e86/075679628312.jpg/600x600bb.jpg"
     },
     {
-      "title": "That\u00e2\u20ac\u2122s So True",
+      "title": "That's So True",
       "artist": "Gracie Abrams",
       "genre": [
         "Pop"
@@ -78,7 +78,7 @@
         "catchy",
         "light-hearted"
       ],
-      "image": "images/record.jpg"
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/26/78/81/26788143-5e5f-0813-2480-ecf4280ef221/24UM1IM07082.rgb.jpg/600x600bb.jpg"
     },
     {
       "title": "Show Me Love",
@@ -463,7 +463,7 @@
     },
     {
       "title": "Alright",
-      "artist": "Victoria Mon\u00c3\u00a9t",
+      "artist": "Victoria Monet",
       "genre": [
         "RnB"
       ],
@@ -472,7 +472,7 @@
         "gritty",
         "catchy"
       ],
-      "image": "images/record.jpg"
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/8a/80/48/8a80487e-4bfc-f07c-c47e-79d21905f7e8/196589891235.jpg/600x600bb.jpg"
     },
     {
       "title": "Best Part",
@@ -606,7 +606,7 @@
     },
     {
       "title": "Bad Memories",
-      "artist": "MEDUZA, James Carter ft. Elley Duh\u00c3\u00a9 & FAST BOY",
+      "artist": "MEDUZA, James Carter ft. Elley Duhe & FAST BOY",
       "genre": [
         "Electronic"
       ],
@@ -615,7 +615,7 @@
         "happy",
         "upbeat"
       ],
-      "image": "images/record.jpg"
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/15/c7/60/15c76064-413c-4501-9f3f-ae1664e8a6eb/22UMGIM58565.rgb.jpg/600x600bb.jpg"
     },
     {
       "title": "Turn On the Lights again..",
@@ -869,9 +869,9 @@
     },
     {
       "title": "Guitarras Blancas",
-      "artist": "Red Hot Chili Peppers",
+      "artist": "Los Enanitos Verdes",
       "genre": [
-        "Rock"
+        "Rock", "Latin"
       ],
       "descriptors": [
         "upbeat",
@@ -1353,7 +1353,7 @@
         "bass",
         "dancy"
       ],
-      "image": "images/record.jpg"
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/8f/fd/24/8ffd2427-0b49-1850-ed9b-ccdc63b9b94a/886449640546.jpg/600x600bb.jpg"
     },
     {
       "title": "Cuando Pasa el Temblor",
@@ -1379,7 +1379,7 @@
         "romantic",
         "relaxed"
       ],
-      "image": "images/record.jpg"
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/64/70/1c/64701cff-71ed-912f-ce62-71d409f5e6ad/195497640560.jpg/600x600bb.jpg"
     },
     {
       "title": "512",
@@ -1392,7 +1392,7 @@
         "romantic",
         "bass"
       ],
-      "image": "images/record.jpg"
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a3/65/5a/a3655aa1-4d72-9284-e587-bb2644ef15ca/196006084233.jpg/600x600bb.jpg"
     },
     {
       "title": "BUENOS AIRES",
@@ -1405,7 +1405,7 @@
         "lyrical",
         "intense"
       ],
-      "image": "images/record.jpg"
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/e9/16/69/e91669b1-53be-1516-a632-6ce93891c101/886448636915.jpg/600x600bb.jpg"
     },
     {
       "title": "La Bicicleta",
@@ -1418,7 +1418,7 @@
         "happy",
         "bubbly"
       ],
-      "image": "images/record.jpg"
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ea/a4/c6/eaa4c630-7e08-ea25-7c63-50948805a63c/886446480060.jpg/600x600bb.jpg"
     },
     {
       "title": "Super Shy",
@@ -1431,7 +1431,7 @@
         "catchy",
         "light-hearted"
       ],
-      "image": "images/record.jpg"
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/75/77/fd/7577fd38-4768-5b9c-98a3-880e3cb3b88e/198009351619.png/600x600bb.jpg"
     },
     {
       "title": "Seven",
@@ -1457,7 +1457,7 @@
         "catchy",
         "bubbly"
       ],
-      "image": "images/record.jpg"
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d3/4b/7e/d34b7e1e-af3b-43b6-2949-7a8c652a1bc9/196922462726_Cover.jpg/600x600bb.jpg"
     },
     {
       "title": "Shut Down",
@@ -1470,7 +1470,7 @@
         "gritty",
         "intense"
       ],
-      "image": "images/record.jpg"
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/94/b6/96/94b696c4-63be-8196-cae6-1f81be0a4cbe/22UM1IM01017.rgb.jpg/600x600bb.jpg"
     },
     {
       "title": "God's Menu",
@@ -1509,7 +1509,7 @@
         "gritty",
         "upbeat"
       ],
-      "image": "images/record.jpg"
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/b9/bc/58/b9bc58ce-2d5e-74a5-c1da-9c8e596a6625/738676860030_Cover.jpg/600x600bb.jpg"
     },
     {
       "title": "Pink Venom",
@@ -1522,7 +1522,7 @@
         "bass",
         "loud"
       ],
-      "image": "images/record.jpg"
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/72/48/88/72488832-558c-fcba-4aa0-03d88dc79eb3/22UMGIM87808.rgb.jpg/600x600bb.jpg"
     },
     {
       "title": "Hype Boy",
@@ -1535,7 +1535,7 @@
         "bubbly",
         "catchy"
       ],
-      "image": "images/record.jpg"
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/4e/64/34/4e64344b-3ac6-c503-2c41-257a15401416/192641873096_Cover.jpg/600x600bb.jpg"
     },
     {
       "title": "Butter",

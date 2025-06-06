@@ -44,12 +44,13 @@ def readJSON(file, key):
 def searchClicked(artistBox, songsBox, checkboxes, displayGrid):
     setRecType(artistBox, songsBox)
     setPref(checkboxes)
-
     if displayWhat != [False, False] and preferences != []:
         #if artists then search artist json
         #if songs then search songs json
         print("IN LOOP")
         returnRecs()
+        artistTitle.setHidden(not displayWhat[0])
+        songTitle.setHidden(not displayWhat[1])
         displayRecs(displayGrid)
 
 def returnRecs():
@@ -159,15 +160,28 @@ def fillSongDisplay(displayGrid, title, artist, genre, descriptors, image_url, r
     displayGrid.addWidget(container, row, col)
 
 #fill in the info for artists 
-def fillArtistDisplay(displayGrid, artist, genre, descriptors, row, col):
+def fillArtistDisplay(displayGrid, artist, genre, descriptors, image_url, row, col):
     displayInfoWidget = QVBoxLayout()
     
-    # --- Image handling ---
-    scene = QGraphicsScene()
-    pixmap = QPixmap("images/noProfile.jpg")
-    image = QLabel()
+   # --- Image handling ---
+    pixmap = QPixmap()
 
+    if image_url.startswith("http"):
+        try:
+            response = requests.get(image_url)
+            if response.status_code == 200:
+                image_data = BytesIO(response.content)
+                pixmap.loadFromData(image_data.read())
+            else:
+                pixmap.load("images/noProfile.jpg")
+        except Exception as e:
+            print(f"Error loading image from URL: {e}")
+            pixmap.load("images/noProfile.jpg")
+    else:
+        pixmap.load(image_url)
+    
     pixmap = pixmap.scaled(150, 150, Qt.KeepAspectRatio) 
+    image = QLabel()
     image.setPixmap(pixmap)
     image.setAlignment(Qt.AlignCenter)
     image.setFixedSize(150, 150)
@@ -185,6 +199,7 @@ def fillArtistDisplay(displayGrid, artist, genre, descriptors, row, col):
     # wrap layout in a QWidget
     container = QWidget()
     container.setLayout(displayInfoWidget) 
+    container.setStyleSheet("background-color: lightpink; font-family: 'Terminal';")
 
     # add the widget to the grid
     displayGrid.addWidget(container, row, col)
@@ -205,7 +220,7 @@ def displayRecs(displayGrid):
         for i, (artist, score) in enumerate(artistRecList):
             col = i % colMax
             currentRow = (i // colMax)
-            fillArtistDisplay(displayGrid, artist["artist"], artist["genre"], artist["descriptors"], currentRow, col)
+            fillArtistDisplay(displayGrid, artist["artist"], artist["genre"], artist["descriptors"], artist["image"], currentRow, col)
         colNext = 2 
 
     if displayWhat[1]: #songs
@@ -258,6 +273,12 @@ if prefGrid:
         checkbox = QCheckBox(descriptor)
         checkboxes.append(checkbox)
         prefGrid.addWidget(checkbox, row, col)
+
+
+artistTitle = selectionWindow.findChild(QLabel, "artistTitle")
+artistTitle.setHidden(True)
+songTitle = selectionWindow.findChild(QLabel, "songTitle")
+songTitle.setHidden(True)
 
 displayGrid = selectionWindow.findChild(QGridLayout, "displayGrid")
 if displayGrid:
