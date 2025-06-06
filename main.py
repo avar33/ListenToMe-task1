@@ -8,14 +8,9 @@ from PySide6.QtWidgets import (
     QLabel,
     QPushButton,
     QVBoxLayout,
-    QHBoxLayout,
     QGridLayout,
-    QWidget,
-    QSizePolicy, 
-    QGraphicsView, 
+    QWidget, 
     QGraphicsScene,
-    QGraphicsPixmapItem, 
-    QScrollArea
 )
 
 from PySide6.QtUiTools import QUiLoader
@@ -24,11 +19,6 @@ from functools import partial
 from PySide6.QtCore import Qt
 
 
-#GLOBAL VARIABLES
-displayWhat = [False, False]
-preferences = []
-songReccList = []
-artistReccList = []
 
 #FUNCTION DECL
 #--------------------------------------------------------------------------------------------------------------
@@ -41,42 +31,42 @@ def readJSON(file, key):
     else: 
         return None
 
+#GLOBAL VARIABLES
+displayWhat = [False, False] #artist, song
+preferences = []
+songRecList = []
+artistRecList = []
+
 #TODO: MOVE TO ANOTHER FILE 
 #SEARCHING UTILITY
 #----------------------------------------------------------------
 #search button overall functionality 
 def searchClicked(artistBox, songsBox, checkboxes, displayGrid):
-    setReccType(artistBox, songsBox)
+    setRecType(artistBox, songsBox)
     setPref(checkboxes)
 
     if displayWhat != [False, False] and preferences != []:
         #if artists then search artist json
         #if songs then search songs json
         print("IN LOOP")
-        returnReccs()
-        z = 0
-        for i in range(8):
-            if i >= 4: 
-                z = 1
-                i = i - 4
-                for artist in artistReccList:
-                    fillDisplayWidget(displayGrid, artist)
+        returnRecs()
+        displayRecs(displayGrid)
 
-def returnReccs():
-    global displayWhat, preferences, songReccList, artistReccList
-    songReccList.clear()
-    artistReccList.clear()
+def returnRecs():
+    global displayWhat, preferences, songRecList, artistRecList
+    songRecList.clear()
+    artistRecList.clear()
     
     if displayWhat[0] == True:
         artists = readJSON("artists.json", 'artists')
-        artistReccList = rankItems(artists, preferences)
-        for artist, totalRank in artistReccList:
+        artistRecList = rankItems(artists, preferences)
+        for artist, totalRank in artistRecList:
             print(f"{artist['artist']} - Score: {totalRank}")
         
     if displayWhat[1] == True: 
         songs = readJSON("songs.json", 'songs')
-        songReccList = rankItems(songs, preferences)
-        for song, totalRank in songReccList:
+        songRecList = rankItems(songs, preferences)
+        for song, totalRank in songRecList:
             print(f"{song['title']} by {song['artist']} - Score: {totalRank}")
 
 def rankItems(items, userChecked):
@@ -91,8 +81,8 @@ def rankItems(items, userChecked):
     ranked.sort(key=lambda x: x[1], reverse=True)
     return ranked
 
-#extrapolates whatever type of reccomendation is picked 
-def setReccType(artistBox, songsBox):
+#extrapolates whatever type of Recomendation is picked 
+def setRecType(artistBox, songsBox):
     global displayWhat
     displayWhat[0] = artistBox.isChecked()
     displayWhat[1]= songsBox.isChecked()
@@ -114,6 +104,7 @@ def setPref(checkboxes):
     else:
         preferences = temp
     print(preferences)
+#----------------------------------------------------------------
 
 #error message box 
 def createErrorAlert (msg):
@@ -123,7 +114,8 @@ def createErrorAlert (msg):
     msg_box.setWindowTitle("Error")
     msg_box.exec()
 
-def fillDisplayWidget(displayGrid, item):
+#fill in the info for songs 
+def fillSongDisplay(displayGrid, title, artist, genre, descriptors, row, col):
     displayInfoWidget = QVBoxLayout()
     
     # --- Image handling ---
@@ -137,17 +129,9 @@ def fillDisplayWidget(displayGrid, item):
     image.setFixedSize(150, 150)
 
      # --- Labels ---
-    if item == "song":
-        mainLabel = QLabel(item['title'])
-        artist_genre = QLabel(item['artist'], " -  ")
-        #artist_genre = QLabel(item['artist'], " -  ", item['genre'])
-    elif item == "artist": 
-        mainLabel = QLabel(item['artist'])
-        artist_genre = QLabel(item['genre'])
-
-    #for i in range(3):
-       # descLabel = QLabel(item['descriptors'])
-    descLabel = QLabel("desc")
+    mainLabel = QLabel(f"{title}")
+    artist_genre = QLabel(f"by {artist} - {', '.join(genre)}")
+    descLabel = QLabel(" | ".join(descriptors))
 
     displayInfoWidget.addWidget(image)
     displayInfoWidget.addWidget(mainLabel)
@@ -159,8 +143,82 @@ def fillDisplayWidget(displayGrid, item):
     container.setLayout(displayInfoWidget) 
 
     # add the widget to the grid
-    displayGrid.addWidget(container, z, i)
-#----------------------------------------------------------------
+    displayGrid.addWidget(container, row, col)
+
+#fill in the info for artists 
+def fillArtistDisplay(displayGrid, artist, genre, descriptors, row, col):
+    displayInfoWidget = QVBoxLayout()
+    
+    # --- Image handling ---
+    scene = QGraphicsScene()
+    pixmap = QPixmap("images/noProfile.jpg")
+    image = QLabel()
+
+    pixmap = pixmap.scaled(150, 150, Qt.KeepAspectRatio) 
+    image.setPixmap(pixmap)
+    image.setAlignment(Qt.AlignCenter)
+    image.setFixedSize(150, 150)
+
+     # --- Labels ---
+    mainLabel = QLabel(f"{artist}")
+    artist_genre = QLabel(', '.join(genre))
+    descLabel = QLabel(" | ".join(descriptors))
+
+    displayInfoWidget.addWidget(image)
+    displayInfoWidget.addWidget(mainLabel)
+    displayInfoWidget.addWidget(artist_genre)
+    displayInfoWidget.addWidget(descLabel)
+
+    # wrap layout in a QWidget
+    container = QWidget()
+    container.setLayout(displayInfoWidget) 
+
+    # add the widget to the grid
+    displayGrid.addWidget(container, row, col)
+
+#display in grid 
+def displayRecs(displayGrid):
+    #empty current display
+    while displayGrid.count():
+        child = displayGrid.takeAt(0)
+        if child.widget():
+            child.widget().deleteLater()
+
+    colNext = 0
+    colMax = 4
+    if displayWhat[0]: #artists
+        if displayWhat[1]:
+            colMax = 2
+        for i, (artist, score) in enumerate(artistRecList):
+            col = i % colMax
+            currentRow = (i // colMax)
+            fillArtistDisplay(displayGrid, artist["artist"], artist["genre"], artist["descriptors"], currentRow, col)
+        colNext = 2 
+
+    if displayWhat[1]: #songs
+        for i, (song, score) in enumerate(songRecList):
+            col = (i % colMax) + colNext
+            currentRow = i // colMax
+            fillSongDisplay(displayGrid, song["title"], song["artist"], song["genre"], song["descriptors"], currentRow, col)
+
+def randomRecs(displayGrid): #TODO: PUT ON BACKBURNER FOR NOW 
+    colNext = 0
+    colMax = 4
+    if displayWhat[0]: #artists
+        if displayWhat[1]:
+            colMax = 2
+        for i, (artist, score) in enumerate(artistRecList):
+            col = i % colMax
+            currentRow = (i // colMax)
+            fillArtistDisplay(displayGrid, artist["artist"], artist["genre"], artist["descriptors"], currentRow, col)
+        colNext = 2 
+
+    if displayWhat[1]: #songs
+        for i, (song, score) in enumerate(songRecList):
+            col = (i % colMax) + colNext
+            currentRow = i // colMax
+            fillSongDisplay(displayGrid, song["title"], song["artist"], song["genre"], song["descriptors"], currentRow, col)
+
 #--------------------------------------------------------------------------------------------------------------
 
 #LOAD APPLICATION 
