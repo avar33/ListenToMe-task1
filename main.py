@@ -45,7 +45,7 @@ def readJSON(file, key):
 #SEARCHING UTILITY
 #----------------------------------------------------------------
 #search button overall functionality 
-def searchClicked(artistBox, songsBox, checkboxes):
+def searchClicked(artistBox, songsBox, checkboxes, displayGrid):
     setReccType(artistBox, songsBox)
     setPref(checkboxes)
 
@@ -54,6 +54,13 @@ def searchClicked(artistBox, songsBox, checkboxes):
         #if songs then search songs json
         print("IN LOOP")
         returnReccs()
+        z = 0
+        for i in range(8):
+            if i >= 4: 
+                z = 1
+                i = i - 4
+                for artist in artistReccList:
+                    fillDisplayWidget(displayGrid, artist)
 
 def returnReccs():
     global displayWhat, preferences, songReccList, artistReccList
@@ -63,15 +70,14 @@ def returnReccs():
     if displayWhat[0] == True:
         artists = readJSON("artists.json", 'artists')
         artistReccList = rankItems(artists, preferences)
+        for artist, totalRank in artistReccList:
+            print(f"{artist['artist']} - Score: {totalRank}")
         
     if displayWhat[1] == True: 
         songs = readJSON("songs.json", 'songs')
         songReccList = rankItems(songs, preferences)
-    
-    for artist, totalRank in artistReccList:
-        print(f"{artist['artist']} - Score: {totalRank}")
-    for song, totalRank in songReccList:
-        print(f"{song['title']} by {song['artist']} - Score: {totalRank}")
+        for song, totalRank in songReccList:
+            print(f"{song['title']} by {song['artist']} - Score: {totalRank}")
 
 def rankItems(items, userChecked):
     ranked = []
@@ -117,7 +123,7 @@ def createErrorAlert (msg):
     msg_box.setWindowTitle("Error")
     msg_box.exec()
 
-def fillDisplayWidget(displayGrid, name, artist, genre, descriptors):
+def fillDisplayWidget(displayGrid, item):
     displayInfoWidget = QVBoxLayout()
     
     # --- Image handling ---
@@ -131,9 +137,17 @@ def fillDisplayWidget(displayGrid, name, artist, genre, descriptors):
     image.setFixedSize(150, 150)
 
      # --- Labels ---
-    mainLabel = QLabel(name)
-    artist_genre = QLabel(artist, " -  genre")
-    descLabel = QLabel("word | word | word")
+    if item == "song":
+        mainLabel = QLabel(item['title'])
+        artist_genre = QLabel(item['artist'], " -  ")
+        #artist_genre = QLabel(item['artist'], " -  ", item['genre'])
+    elif item == "artist": 
+        mainLabel = QLabel(item['artist'])
+        artist_genre = QLabel(item['genre'])
+
+    #for i in range(3):
+       # descLabel = QLabel(item['descriptors'])
+    descLabel = QLabel("desc")
 
     displayInfoWidget.addWidget(image)
     displayInfoWidget.addWidget(mainLabel)
@@ -174,19 +188,11 @@ if prefGrid:
         checkboxes.append(checkbox)
         prefGrid.addWidget(checkbox, row, col)
 
-searchButton.clicked.connect(partial(searchClicked, artistBox, songsBox, checkboxes))
-
 displayGrid = selectionWindow.findChild(QGridLayout, "displayGrid")
 if displayGrid:
     print("displayGrid found")
 
-z = 0
-for i in range(8):
-    if i >= 4: 
-        z = 1
-        i = i - 4
-    #fillDisplayGrid(displayGrid)
-
+searchButton.clicked.connect(partial(searchClicked, artistBox, songsBox, checkboxes, displayGrid))
 
 selectionWindow.show()
 app.exec()
