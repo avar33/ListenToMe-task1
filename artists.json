@@ -1,524 +1,1234 @@
 {
-  "artists":[
-  {
-    "artist": "Taylor Swift",
-    "genre": ["Pop"],
-    "descriptors": ["romantic", "nostalgic", "lyrical"]
-  },
-  {
-    "artist": "Dua Lipa",
-    "genre": ["Pop"],
-    "descriptors": ["dancy", "catchy", "upbeat"]
-  },
-  {
-    "artist": "Harry Styles",
-    "genre": ["Pop"],
-    "descriptors": ["emotional", "relaxed", "light-hearted"]
-  },
-  {
-    "artist": "Billie Eilish",
-    "genre": ["Pop"],
-    "descriptors": ["sad", "experimental", "intense"]
-  },
-  {
-    "artist": "Ariana Grande",
-    "genre": ["Pop"],
-    "descriptors": ["romantic", "bubbly", "catchy"]
-  },
-  {
-    "artist": "Olivia Rodrigo",
-    "genre": ["Pop"],
-    "descriptors": ["emotional", "gritty", "nostalgic"]
-  },
-  {
-    "artist": "Shawn Mendes",
-    "genre": ["Pop"],
-    "descriptors": ["romantic", "lyrical", "happy"]
-  },
-  {
-    "artist": "Charlie Puth",
-    "genre": ["Pop"],
-    "descriptors": ["bass", "catchy", "light-hearted"]
-  },
-  {
-    "artist": "Sabrina Carpenter",
-    "genre": ["Pop"],
-    "descriptors": ["bubbly", "dancy", "upbeat"]
-  },
-  {
-    "artist": "Sam Smith",
-    "genre": ["Pop"],
-    "descriptors": ["sad", "lyrical", "romantic"]
-  }, 
-  {
-    "artist": "1100 Himself",
-    "genre": ["Hip-Hop"],
-    "descriptors": ["lyrical", "emotional", "gritty"]
-  },
-  {
-    "artist": "Lucy Bedroque",
-    "genre": ["Hip-Hop"],
-    "descriptors": ["experimental", "intense", "bubbly"]
-  },
-  {
-    "artist": "xaviersobased",
-    "genre": ["Hip-Hop"],
-    "descriptors": ["gritty", "experimental", "bass"]
-  },
-  {
-    "artist": "Samara Cyn",
-    "genre": ["Hip-Hop"],
-    "descriptors": ["lyrical", "emotional", "romantic"]
-  },
-  {
-    "artist": "Ray Vaughn",
-    "genre": ["Hip-Hop"],
-    "descriptors": ["intense", "gritty", "lyrical"]
-  },
-  {
-    "artist": "Benji Blue Bills",
-    "genre": ["Hip-Hop"],
-    "descriptors": ["catchy", "upbeat", "emotional"]
-  },
-  {
-    "artist": "TruthTheBull",
-    "genre": ["Hip-Hop"],
-    "descriptors": ["gritty", "intense", "lyrical"]
-  },
-  {
-    "artist": "CoupeDaze",
-    "genre": ["Hip-Hop"],
-    "descriptors": ["experimental", "emotional", "lyrical"]
-  },
-  {
-    "artist": "Lil MC",
-    "genre": ["Hip-Hop"],
-    "descriptors": ["bubbly", "gritty", "romantic"]
-  },
-  {
-    "artist": "Hanumankind",
-    "genre": ["Hip-Hop"],
-    "descriptors": ["experimental", "intense", "bass"]
-  },
-  {
-    "artist": "Samara Cyn",
-    "genre": ["RnB"],
-    "descriptors": ["lyrical", "emotional", "experimental"]
-  },
-  {
-    "artist": "Leon Thomas",
-    "genre": ["RnB"],
-    "descriptors": ["romantic", "lyrical", "emotional"]
-  },
-  {
-    "artist": "Elmiene",
-    "genre": ["RnB"],
-    "descriptors": ["emotional", "lyrical", "experimental"]
-  },
-  {
-    "artist": "SadBoi",
-    "genre": ["RnB"],
-    "descriptors": ["gritty", "experimental", "intense"]
-  },
-  {
-    "artist": "Avenoir",
-    "genre": ["RnB"],
-    "descriptors": ["romantic", "emotional", "lyrical"]
-  },
-  {
-    "artist": "Keiyaa",
-    "genre": ["RnB"],
-    "descriptors": ["lyrical", "gritty", "experimental"]
-  },
-  {
-    "artist": "Sasha Keable",
-    "genre": ["RnB"],
-    "descriptors": ["romantic", "emotional", "lyrical"]
-  },
-  {
-    "artist": "Isaiah Falls",
-    "genre": ["RnB"],
-    "descriptors": ["romantic", "emotional", "lyrical"]
-  },
-  {
-    "artist": "Luci Rain",
-    "genre": ["RnB"],
-    "descriptors": ["experimental", "lyrical", "emotional"]
-  },
-  {
-    "artist": "Shaé Universe",
-    "genre": ["RnB"],
-    "descriptors": ["gritty", "emotional", "lyrical"]
-  },
- {
-    "artist": "Rusowsky",
-    "genre": ["Electronic"],
-    "descriptors": ["experimental", "emotional", "dancy"]
-  },
-  {
-    "artist": "Josh Butler",
-    "genre": ["Electronic"],
-    "descriptors": ["bass", "upbeat", "catchy"]
-  },
-  {
-    "artist": "Purient",
-    "genre": ["Electronic"],
-    "descriptors": ["lyrical", "emotional", "experimental"]
-  },
-  {
-    "artist": "Mitch Oliver",
-    "genre": ["Electronic"],
-    "descriptors": ["romantic", "relaxed", "lyrical"]
-  },
-  {
-    "artist": "PISAPIA",
-    "genre": ["Electronic"],
-    "descriptors": ["intense", "loud", "gritty"]
-  },
-  {
-    "artist": "Natty Lou",
-    "genre": ["Electronic"],
-    "descriptors": ["upbeat", "bass", "dancy"]
-  },
-  {
-    "artist": "LUXE",
-    "genre": ["Electronic"],
-    "descriptors": ["nostalgic", "relaxed", "lyrical"]
-  },
-  {
-    "artist": "Ma Sha",
-    "genre": ["Electronic"],
-    "descriptors": ["experimental", "gritty", "intense"]
-  },
-  {
-    "artist": "p-rallel",
-    "genre": ["Electronic"],
-    "descriptors": ["catchy", "upbeat", "dancy"]
-  },
-  {
-    "artist": "Foo Fighters",
-    "genre": ["Rock"],
-    "descriptors": ["loud", "intense", "gritty"]
-  },
-  {
-    "artist": "Arctic Monkeys",
-    "genre": ["Rock", "Alternative"],
-    "descriptors": ["nostalgic", "lyrical", "gritty"]
-  },
-  {
-    "artist": "The Rolling Stones",
-    "genre": ["Rock"],
-    "descriptors": ["loud", "catchy", "nostalgic"]
-  },
-  {
-    "artist": "Radiohead",
-    "genre": ["Rock"],
-    "descriptors": ["experimental", "sad", "intense"]
-  },
-  {
-    "artist": "Muse",
-    "genre": ["Rock"],
-    "descriptors": ["bass", "intense", "emotional"]
-  },
-  {
-    "artist": "Nirvana",
-    "genre": ["Rock"],
-    "descriptors": ["gritty", "emotional", "loud"]
-  },
-  {
-    "artist": "Paramore",
-    "genre": ["Rock", "Alternative"],
-    "descriptors": ["catchy", "emotional", "upbeat"]
-  },
-  {
-    "artist": "The Killers",
-    "genre": ["Rock"],
-    "descriptors": ["dancy", "nostalgic", "lyrical"]
-  },
-  {
-    "artist": "Imagine Dragons",
-    "genre": ["Rock"],
-    "descriptors": ["bass", "intense", "catchy"]
-  },
-  {
-    "artist": "Red Hot Chili Peppers",
-    "genre": ["Rock"],
-    "descriptors": ["experimental", "bass", "relaxed"]
-  }, 
-  {
-    "artist": "Tame Impala",
-    "genre": ["Alternative"],
-    "descriptors": ["experimental", "relaxed", "emotional"]
-  },
-  {
-    "artist": "Lana Del Rey",
-    "genre": ["Alternative"],
-    "descriptors": ["nostalgic", "sad", "lyrical"]
-  },
-  {
-    "artist": "Cage The Elephant",
-    "genre": ["Alternative"],
-    "descriptors": ["gritty", "loud", "intense"]
-  },
-  {
-    "artist": "The 1975",
-    "genre": ["Alternative"],
-    "descriptors": ["romantic", "catchy", "light-hearted"]
-  },
-  {
-    "artist": "Alt-J",
-    "genre": ["Alternative"],
-    "descriptors": ["experimental", "lyrical", "slow"]
-  },
-  {
-    "artist": "Yeah Yeah Yeahs",
-    "genre": ["Alternative"],
-    "descriptors": ["loud", "gritty", "dancy"]
-  },
-  {
-    "artist": "Modest Mouse",
-    "genre": ["Alternative"],
-    "descriptors": ["nostalgic", "emotional", "intense"]
-  },
-  {
-    "artist":"Phoebe Bridgers",
-    "genre": ["Alternative"],
-    "descriptors": ["sad", "lyrical", "slow"]
-  }, 
-  {
-    "artist": "Florence + The Machine",
-    "genre": ["Indie"],
-    "descriptors": ["emotional", "intense", "lyrical"]
-  },
-  {
-    "artist": "Bon Iver",
-    "genre": ["Indie"],
-    "descriptors": ["slow", "romantic", "experimental"]
-  },
-  {
-    "artist": "Beabadoobee",
-    "genre": ["Indie"],
-    "descriptors": ["nostalgic", "light-hearted", "bubbly"]
-  },
-  {
-    "artist": "Mitski",
-    "genre": ["Indie"],
-    "descriptors": ["sad", "lyrical", "emotional"]
-  },
-  {
-    "artist": "Arlo Parks",
-    "genre": ["Indie"],
-    "descriptors": ["relaxed", "lyrical", "romantic"]
-  },
-  {
-    "artist": "Mac DeMarco",
-    "genre": ["Indie"],
-    "descriptors": ["relaxed", "bubbly", "light-hearted"]
-  },
-  {
-    "artist": "Vampire Weekend",
-    "genre": ["Indie"],
-    "descriptors": ["catchy", "dancy", "happy"]
-  },
-  {
-    "artist": "Soccer Mommy",
-    "genre": ["Indie"],
-    "descriptors": ["sad", "gritty", "emotional"]
-  },
-  {
-    "artist": "Clairo",
-    "genre": ["Indie"],
-    "descriptors": ["romantic", "slow", "light-hearted"]
-  },
-  {
-    "artist": "The Lumineers",
-    "genre": ["Indie"],
-    "descriptors": ["nostalgic", "lyrical", "happy"]
-  },
-  {
-    "artist": "Girl in Red",
-    "genre": ["Indie"],
-    "descriptors": ["emotional", "romantic", "gritty"]
-  },
-  {
-    "artist": "Rex Orange County",
-    "genre": ["Indie"],
-    "descriptors": ["bubbly", "light-hearted", "catchy"]
-  }, 
-  {
-    "artist": "Morgan Wallen",
-    "genre": ["Country"],
-    "descriptors": ["nostalgic", "romantic", "emotional"]
-  },
-  {
-    "artist": "Kacey Musgraves",
-    "genre": ["Country"],
-    "descriptors": ["light-hearted", "relaxed", "lyrical"]
-  },
-  {
-    "artist": "Luke Combs",
-    "genre": ["Country"],
-    "descriptors": ["romantic", "gritty", "catchy"]
-  },
-  {
-    "artist": "Carrie Underwood",
-    "genre": ["Country"],
-    "descriptors": ["intense", "loud", "emotional"]
-  },
-  {
-    "artist": "Chris Stapleton",
-    "genre": ["Country"],
-    "descriptors": ["gritty", "slow", "lyrical"]
-  },
-  {
-    "artist": "Zach Bryan",
-    "genre": ["Country"],
-    "descriptors": ["sad", "romantic", "emotional"]
-  },
-  {
-    "artist": "Miranda Lambert",
-    "genre": ["Country"],
-    "descriptors": ["catchy", "upbeat", "gritty"]
-  },
-  {
-    "artist": "Dan + Shay",
-    "genre": ["Country"],
-    "descriptors": ["romantic", "light-hearted", "happy"]
-  },
-  {
-    "artist": "Lainey Wilson",
-    "genre": ["Country"],
-    "descriptors": ["upbeat", "bubbly", "catchy"]
-  },
-  {
-    "artist": "Dierks Bentley",
-    "genre": ["Country"],
-    "descriptors": ["nostalgic", "relaxed", "lyrical"]
-  }, 
-  {
-    "artist": "Bad Gyal",
-    "genre": ["Latin"],
-    "descriptors": ["upbeat", "dancy", "catchy"]
-  },
-  {
-    "artist": "Karol G",
-    "genre": ["Latin"],
-    "descriptors": ["catchy", "bubbly", "romantic"]
-  },
-  {
-    "artist": "J Balvin",
-    "genre": ["Latin"],
-    "descriptors": ["bass", "happy", "dancy"]
-  },
-  {
-    "artist": "Rosalía",
-    "genre": ["Latin"],
-    "descriptors": ["experimental", "intense", "emotional"]
-  },
-  {
-    "artist": "Young Miko",
-    "genre": ["Latin"],
-    "descriptors": ["happy", "upbeat", "catchy"]
-  },
-  {
-    "artist": "Anitta",
-    "genre": ["Latin"],
-    "descriptors": ["bubbly", "dancy", "light-hearted"]
-  },
-  {
-    "artist": "Rauw Alejandro",
-    "genre": ["Latin"],
-    "descriptors": ["dancy", "happy", "romantic"]
-  },
-  {
-    "artist": "Becky G",
-    "genre": ["Latin"],
-    "descriptors": ["light-hearted", "catchy", "bubbly"]
-  },
-  {
-    "artist": "Mon Laferte",
-    "genre": ["Latin"],
-    "descriptors": ["romantic", "lyrical", "intese"]
-  },
-  {
-    "artist": "Daddy Yankee",
-    "genre": ["Latin"],
-    "descriptors": ["loud", "bass", "upbeat"]
-  },
-  {
-    "artist": "Natti Natasha",
-    "genre": ["Latin"],
-    "descriptors": ["romantic", "catchy", "light-hearted"]
-  },
-  {
-    "artist": "Feid",
-    "genre": ["Latin"],
-    "descriptors": ["gritty", "dancy", "emotional"]
-  },
-  {
-    "artist": "Camila Cabello",
-    "genre": ["Latin", "Pop"],
-    "descriptors": ["bubbly", "romantic", "happy"]
-  },
-  {
-    "artist": "Omar Courtz",
-    "genre": ["Latin"],
-    "descriptors": ["light-hearted", "upbeat", "gritty"]
-  },
-  {
-    "artist": "Arca",
-    "genre": ["Latin"],
-    "descriptors": ["intense", "experimental", "loud"]
-  }, 
-  {
-    "artist": "BTS",
-    "genre": ["K-pop"],
-    "descriptors": ["catchy", "dancy", "emotional"]
-  },
-  {
-    "artist": "BLACKPINK",
-    "genre": ["K-pop"],
-    "descriptors": ["intense", "loud", "upbeat"]
-  },
-  {
-    "artist": "NewJeans",
-    "genre": ["K-pop"],
-    "descriptors": ["bubbly", "light-hearted", "dancy"]
-  },
-  {
-    "artist": "EXO",
-    "genre": ["K-pop"],
-    "descriptors": ["emotional", "romantic", "bass"]
-  },
-  {
-    "artist": "TWICE",
-    "genre": ["K-pop"],
-    "descriptors": ["bubbly", "happy", "catchy"]
-  },
-  {
-    "artist": "SEVENTEEN",
-    "genre": ["K-pop"],
-    "descriptors": ["upbeat", "dancy", "light-hearted"]
-  },
-  {
-    "artist": "Stray Kids",
-    "genre": ["K-pop"],
-    "descriptors": ["gritty", "intense", "experimental"]
-  },
-  {
-    "artist": "ITZY",
-    "genre": ["K-pop"],
-    "descriptors": ["loud", "catchy", "upbeat"]
-  },
-  {
-    "artist": "Red Velvet",
-    "genre": ["K-pop"],
-    "descriptors": ["romantic", "bubbly", "experimental"]
-  },
-  {
-    "artist": "LE SSERAFIM",
-    "genre": ["K-pop"],
-    "descriptors": ["dancy", "intense", "emotional"]
-  }
-]
+  "artists": [
+    {
+      "artist": "Taylor Swift",
+      "genre": [
+        "Pop"
+      ],
+      "descriptors": [
+        "romantic",
+        "nostalgic",
+        "lyrical"
+      ]
+    },
+    {
+      "artist": "Dua Lipa",
+      "genre": [
+        "Pop"
+      ],
+      "descriptors": [
+        "dancy",
+        "catchy",
+        "upbeat"
+      ],
+      "image": "images/noProfile.jpg"
+    },
+    {
+      "artist": "Harry Styles",
+      "genre": [
+        "Pop"
+      ],
+      "descriptors": [
+        "emotional",
+        "relaxed",
+        "light-hearted"
+      ],
+      "image": "images/noProfile.jpg"
+    },
+    {
+      "artist": "Billie Eilish",
+      "genre": [
+        "Pop"
+      ],
+      "descriptors": [
+        "sad",
+        "experimental",
+        "intense"
+      ],
+      "image": "images/noProfile.jpg"
+    },
+    {
+      "artist": "Ariana Grande",
+      "genre": [
+        "Pop"
+      ],
+      "descriptors": [
+        "romantic",
+        "bubbly",
+        "catchy"
+      ],
+      "image": "images/noProfile.jpg"
+    },
+    {
+      "artist": "Olivia Rodrigo",
+      "genre": [
+        "Pop"
+      ],
+      "descriptors": [
+        "emotional",
+        "gritty",
+        "nostalgic"
+      ],
+      "image": "images/noProfile.jpg"
+    },
+    {
+      "artist": "Shawn Mendes",
+      "genre": [
+        "Pop"
+      ],
+      "descriptors": [
+        "romantic",
+        "lyrical",
+        "happy"
+      ],
+      "image": "images/noProfile.jpg"
+    },
+    {
+      "artist": "Charlie Puth",
+      "genre": [
+        "Pop"
+      ],
+      "descriptors": [
+        "bass",
+        "catchy",
+        "light-hearted"
+      ]
+    },
+    {
+      "artist": "Sabrina Carpenter",
+      "genre": [
+        "Pop"
+      ],
+      "descriptors": [
+        "bubbly",
+        "dancy",
+        "upbeat"
+      ],
+      "image": "images/noProfile.jpg"
+    },
+    {
+      "artist": "Sam Smith",
+      "genre": [
+        "Pop"
+      ],
+      "descriptors": [
+        "sad",
+        "lyrical",
+        "romantic"
+      ],
+      "image": "images/noProfile.jpg"
+    },
+    {
+      "artist": "1100 Himself",
+      "genre": [
+        "Hip-Hop"
+      ],
+      "descriptors": [
+        "lyrical",
+        "emotional",
+        "gritty"
+      ]
+    },
+    {
+      "artist": "Lucy Bedroque",
+      "genre": [
+        "Hip-Hop"
+      ],
+      "descriptors": [
+        "experimental",
+        "intense",
+        "bubbly"
+      ]
+    },
+    {
+      "artist": "xaviersobased",
+      "genre": [
+        "Hip-Hop"
+      ],
+      "descriptors": [
+        "gritty",
+        "experimental",
+        "bass"
+      ]
+    },
+    {
+      "artist": "Samara Cyn",
+      "genre": [
+        "Hip-Hop"
+      ],
+      "descriptors": [
+        "lyrical",
+        "emotional",
+        "romantic"
+      ]
+    },
+    {
+      "artist": "Ray Vaughn",
+      "genre": [
+        "Hip-Hop"
+      ],
+      "descriptors": [
+        "intense",
+        "gritty",
+        "lyrical"
+      ],
+      "image": "images/noProfile.jpg"
+    },
+    {
+      "artist": "Benji Blue Bills",
+      "genre": [
+        "Hip-Hop"
+      ],
+      "descriptors": [
+        "catchy",
+        "upbeat",
+        "emotional"
+      ],
+      "image": "images/noProfile.jpg"
+    },
+    {
+      "artist": "TruthTheBull",
+      "genre": [
+        "Hip-Hop"
+      ],
+      "descriptors": [
+        "gritty",
+        "intense",
+        "lyrical"
+      ],
+      "image": "images/noProfile.jpg"
+    },
+    {
+      "artist": "CoupeDaze",
+      "genre": [
+        "Hip-Hop"
+      ],
+      "descriptors": [
+        "experimental",
+        "emotional",
+        "lyrical"
+      ]
+    },
+    {
+      "artist": "Lil MC",
+      "genre": [
+        "Hip-Hop"
+      ],
+      "descriptors": [
+        "bubbly",
+        "gritty",
+        "romantic"
+      ]
+    },
+    {
+      "artist": "Hanumankind",
+      "genre": [
+        "Hip-Hop"
+      ],
+      "descriptors": [
+        "experimental",
+        "intense",
+        "bass"
+      ],
+      "image": "images/noProfile.jpg"
+    },
+    {
+      "artist": "Samara Cyn",
+      "genre": [
+        "RnB"
+      ],
+      "descriptors": [
+        "lyrical",
+        "emotional",
+        "experimental"
+      ]
+    },
+    {
+      "artist": "Leon Thomas",
+      "genre": [
+        "RnB"
+      ],
+      "descriptors": [
+        "romantic",
+        "lyrical",
+        "emotional"
+      ],
+      "image": "images/noProfile.jpg"
+    },
+    {
+      "artist": "Elmiene",
+      "genre": [
+        "RnB"
+      ],
+      "descriptors": [
+        "emotional",
+        "lyrical",
+        "experimental"
+      ]
+    },
+    {
+      "artist": "SadBoi",
+      "genre": [
+        "RnB"
+      ],
+      "descriptors": [
+        "gritty",
+        "experimental",
+        "intense"
+      ],
+      "image": "images/noProfile.jpg"
+    },
+    {
+      "artist": "Avenoir",
+      "genre": [
+        "RnB"
+      ],
+      "descriptors": [
+        "romantic",
+        "emotional",
+        "lyrical"
+      ],
+      "image": "images/noProfile.jpg"
+    },
+    {
+      "artist": "Keiyaa",
+      "genre": [
+        "RnB"
+      ],
+      "descriptors": [
+        "lyrical",
+        "gritty",
+        "experimental"
+      ]
+    },
+    {
+      "artist": "Sasha Keable",
+      "genre": [
+        "RnB"
+      ],
+      "descriptors": [
+        "romantic",
+        "emotional",
+        "lyrical"
+      ],
+      "image": "images/noProfile.jpg"
+    },
+    {
+      "artist": "Isaiah Falls",
+      "genre": [
+        "RnB"
+      ],
+      "descriptors": [
+        "romantic",
+        "emotional",
+        "lyrical"
+      ]
+    },
+    {
+      "artist": "Luci Rain",
+      "genre": [
+        "RnB"
+      ],
+      "descriptors": [
+        "experimental",
+        "lyrical",
+        "emotional"
+      ],
+      "image": "images/noProfile.jpg"
+    },
+    {
+      "artist": "Sha\u00c3\u00a9 Universe",
+      "genre": [
+        "RnB"
+      ],
+      "descriptors": [
+        "gritty",
+        "emotional",
+        "lyrical"
+      ]
+    },
+    {
+      "artist": "Rusowsky",
+      "genre": [
+        "Electronic"
+      ],
+      "descriptors": [
+        "experimental",
+        "emotional",
+        "dancy"
+      ]
+    },
+    {
+      "artist": "Josh Butler",
+      "genre": [
+        "Electronic"
+      ],
+      "descriptors": [
+        "bass",
+        "upbeat",
+        "catchy"
+      ],
+      "image": "images/noProfile.jpg"
+    },
+    {
+      "artist": "Purient",
+      "genre": [
+        "Electronic"
+      ],
+      "descriptors": [
+        "lyrical",
+        "emotional",
+        "experimental"
+      ],
+      "image": "images/noProfile.jpg"
+    },
+    {
+      "artist": "Mitch Oliver",
+      "genre": [
+        "Electronic"
+      ],
+      "descriptors": [
+        "romantic",
+        "relaxed",
+        "lyrical"
+      ],
+      "image": "images/noProfile.jpg"
+    },
+    {
+      "artist": "PISAPIA",
+      "genre": [
+        "Electronic"
+      ],
+      "descriptors": [
+        "intense",
+        "loud",
+        "gritty"
+      ]
+    },
+    {
+      "artist": "Natty Lou",
+      "genre": [
+        "Electronic"
+      ],
+      "descriptors": [
+        "upbeat",
+        "bass",
+        "dancy"
+      ]
+    },
+    {
+      "artist": "LUXE",
+      "genre": [
+        "Electronic"
+      ],
+      "descriptors": [
+        "nostalgic",
+        "relaxed",
+        "lyrical"
+      ],
+      "image": "images/noProfile.jpg"
+    },
+    {
+      "artist": "Ma Sha",
+      "genre": [
+        "Electronic"
+      ],
+      "descriptors": [
+        "experimental",
+        "gritty",
+        "intense"
+      ],
+      "image": "images/noProfile.jpg"
+    },
+    {
+      "artist": "p-rallel",
+      "genre": [
+        "Electronic"
+      ],
+      "descriptors": [
+        "catchy",
+        "upbeat",
+        "dancy"
+      ],
+      "image": "images/noProfile.jpg"
+    },
+    {
+      "artist": "Foo Fighters",
+      "genre": [
+        "Rock"
+      ],
+      "descriptors": [
+        "loud",
+        "intense",
+        "gritty"
+      ]
+    },
+    {
+      "artist": "Arctic Monkeys",
+      "genre": [
+        "Rock",
+        "Alternative"
+      ],
+      "descriptors": [
+        "nostalgic",
+        "lyrical",
+        "gritty"
+      ]
+    },
+    {
+      "artist": "The Rolling Stones",
+      "genre": [
+        "Rock"
+      ],
+      "descriptors": [
+        "loud",
+        "catchy",
+        "nostalgic"
+      ],
+      "image": "images/noProfile.jpg"
+    },
+    {
+      "artist": "Radiohead",
+      "genre": [
+        "Rock"
+      ],
+      "descriptors": [
+        "experimental",
+        "sad",
+        "intense"
+      ]
+    },
+    {
+      "artist": "Muse",
+      "genre": [
+        "Rock"
+      ],
+      "descriptors": [
+        "bass",
+        "intense",
+        "emotional"
+      ],
+      "image": "images/noProfile.jpg"
+    },
+    {
+      "artist": "Nirvana",
+      "genre": [
+        "Rock"
+      ],
+      "descriptors": [
+        "gritty",
+        "emotional",
+        "loud"
+      ]
+    },
+    {
+      "artist": "Paramore",
+      "genre": [
+        "Rock",
+        "Alternative"
+      ],
+      "descriptors": [
+        "catchy",
+        "emotional",
+        "upbeat"
+      ],
+      "image": "images/noProfile.jpg"
+    },
+    {
+      "artist": "The Killers",
+      "genre": [
+        "Rock"
+      ],
+      "descriptors": [
+        "dancy",
+        "nostalgic",
+        "lyrical"
+      ],
+      "image": "images/noProfile.jpg"
+    },
+    {
+      "artist": "Imagine Dragons",
+      "genre": [
+        "Rock"
+      ],
+      "descriptors": [
+        "bass",
+        "intense",
+        "catchy"
+      ],
+      "image": "images/noProfile.jpg"
+    },
+    {
+      "artist": "Red Hot Chili Peppers",
+      "genre": [
+        "Rock"
+      ],
+      "descriptors": [
+        "experimental",
+        "bass",
+        "relaxed"
+      ],
+      "image": "images/noProfile.jpg"
+    },
+    {
+      "artist": "Tame Impala",
+      "genre": [
+        "Alternative"
+      ],
+      "descriptors": [
+        "experimental",
+        "relaxed",
+        "emotional"
+      ],
+      "image": "images/noProfile.jpg"
+    },
+    {
+      "artist": "Lana Del Rey",
+      "genre": [
+        "Alternative"
+      ],
+      "descriptors": [
+        "nostalgic",
+        "sad",
+        "lyrical"
+      ],
+      "image": "images/noProfile.jpg"
+    },
+    {
+      "artist": "Cage The Elephant",
+      "genre": [
+        "Alternative"
+      ],
+      "descriptors": [
+        "gritty",
+        "loud",
+        "intense"
+      ],
+      "image": "images/noProfile.jpg"
+    },
+    {
+      "artist": "The 1975",
+      "genre": [
+        "Alternative"
+      ],
+      "descriptors": [
+        "romantic",
+        "catchy",
+        "light-hearted"
+      ],
+      "image": "images/noProfile.jpg"
+    },
+    {
+      "artist": "Alt-J",
+      "genre": [
+        "Alternative"
+      ],
+      "descriptors": [
+        "experimental",
+        "lyrical",
+        "slow"
+      ],
+      "image": "images/noProfile.jpg"
+    },
+    {
+      "artist": "Yeah Yeah Yeahs",
+      "genre": [
+        "Alternative"
+      ],
+      "descriptors": [
+        "loud",
+        "gritty",
+        "dancy"
+      ],
+      "image": "images/noProfile.jpg"
+    },
+    {
+      "artist": "Modest Mouse",
+      "genre": [
+        "Alternative"
+      ],
+      "descriptors": [
+        "nostalgic",
+        "emotional",
+        "intense"
+      ],
+      "image": "images/noProfile.jpg"
+    },
+    {
+      "artist": "Phoebe Bridgers",
+      "genre": [
+        "Alternative"
+      ],
+      "descriptors": [
+        "sad",
+        "lyrical",
+        "slow"
+      ],
+      "image": "images/noProfile.jpg"
+    },
+    {
+      "artist": "Florence + The Machine",
+      "genre": [
+        "Indie"
+      ],
+      "descriptors": [
+        "emotional",
+        "intense",
+        "lyrical"
+      ],
+      "image": "images/noProfile.jpg"
+    },
+    {
+      "artist": "Bon Iver",
+      "genre": [
+        "Indie"
+      ],
+      "descriptors": [
+        "slow",
+        "romantic",
+        "experimental"
+      ],
+      "image": "https://static01.nyt.com/images/2025/03/30/multimedia/30CUL-BON-IVER-01-vlth/30CUL-BON-IVER-01-vlth-mediumSquareAt3X.jpg"
+    },
+    {
+      "artist": "Beabadoobee",
+      "genre": [
+        "Indie"
+      ],
+      "descriptors": [
+        "nostalgic",
+        "light-hearted",
+        "bubbly"
+      ],
+      "image": "images/noProfile.jpg"
+    },
+    {
+      "artist": "Mitski",
+      "genre": [
+        "Indie"
+      ],
+      "descriptors": [
+        "sad",
+        "lyrical",
+        "emotional"
+      ],
+      "image": "images/noProfile.jpg"
+    },
+    {
+      "artist": "Arlo Parks",
+      "genre": [
+        "Indie"
+      ],
+      "descriptors": [
+        "relaxed",
+        "lyrical",
+        "romantic"
+      ],
+      "image": "images/noProfile.jpg"
+    },
+    {
+      "artist": "Mac DeMarco",
+      "genre": [
+        "Indie"
+      ],
+      "descriptors": [
+        "relaxed",
+        "bubbly",
+        "light-hearted"
+      ],
+      "image": "images/noProfile.jpg"
+    },
+    {
+      "artist": "Vampire Weekend",
+      "genre": [
+        "Indie"
+      ],
+      "descriptors": [
+        "catchy",
+        "dancy",
+        "happy"
+      ],
+      "image": "images/noProfile.jpg"
+    },
+    {
+      "artist": "Soccer Mommy",
+      "genre": [
+        "Indie"
+      ],
+      "descriptors": [
+        "sad",
+        "gritty",
+        "emotional"
+      ],
+      "image": "images/noProfile.jpg"
+    },
+    {
+      "artist": "Clairo",
+      "genre": [
+        "Indie"
+      ],
+      "descriptors": [
+        "romantic",
+        "slow",
+        "light-hearted"
+      ],
+      "image": "images/noProfile.jpg"
+    },
+    {
+      "artist": "The Lumineers",
+      "genre": [
+        "Indie"
+      ],
+      "descriptors": [
+        "nostalgic",
+        "lyrical",
+        "happy"
+      ],
+      "image": "images/noProfile.jpg"
+    },
+    {
+      "artist": "Girl in Red",
+      "genre": [
+        "Indie"
+      ],
+      "descriptors": [
+        "emotional",
+        "romantic",
+        "gritty"
+      ],
+      "image": "images/noProfile.jpg"
+    },
+    {
+      "artist": "Rex Orange County",
+      "genre": [
+        "Indie"
+      ],
+      "descriptors": [
+        "bubbly",
+        "light-hearted",
+        "catchy"
+      ],
+      "image": "images/noProfile.jpg"
+    },
+    {
+      "artist": "Morgan Wallen",
+      "genre": [
+        "Country"
+      ],
+      "descriptors": [
+        "nostalgic",
+        "romantic",
+        "emotional"
+      ],
+      "image": "images/noProfile.jpg"
+    },
+    {
+      "artist": "Kacey Musgraves",
+      "genre": [
+        "Country"
+      ],
+      "descriptors": [
+        "light-hearted",
+        "relaxed",
+        "lyrical"
+      ],
+      "image": "images/noProfile.jpg"
+    },
+    {
+      "artist": "Luke Combs",
+      "genre": [
+        "Country"
+      ],
+      "descriptors": [
+        "romantic",
+        "gritty",
+        "catchy"
+      ],
+      "image": "images/noProfile.jpg"
+    },
+    {
+      "artist": "Carrie Underwood",
+      "genre": [
+        "Country"
+      ],
+      "descriptors": [
+        "intense",
+        "loud",
+        "emotional"
+      ],
+      "image": "images/noProfile.jpg"
+    },
+    {
+      "artist": "Chris Stapleton",
+      "genre": [
+        "Country"
+      ],
+      "descriptors": [
+        "gritty",
+        "slow",
+        "lyrical"
+      ],
+      "image": "images/noProfile.jpg"
+    },
+    {
+      "artist": "Zach Bryan",
+      "genre": [
+        "Country"
+      ],
+      "descriptors": [
+        "sad",
+        "romantic",
+        "emotional"
+      ],
+      "image": "images/noProfile.jpg"
+    },
+    {
+      "artist": "Miranda Lambert",
+      "genre": [
+        "Country"
+      ],
+      "descriptors": [
+        "catchy",
+        "upbeat",
+        "gritty"
+      ],
+      "image": "images/noProfile.jpg"
+    },
+    {
+      "artist": "Dan + Shay",
+      "genre": [
+        "Country"
+      ],
+      "descriptors": [
+        "romantic",
+        "light-hearted",
+        "happy"
+      ],
+      "image": "images/noProfile.jpg"
+    },
+    {
+      "artist": "Lainey Wilson",
+      "genre": [
+        "Country"
+      ],
+      "descriptors": [
+        "upbeat",
+        "bubbly",
+        "catchy"
+      ],
+      "image": "images/noProfile.jpg"
+    },
+    {
+      "artist": "Dierks Bentley",
+      "genre": [
+        "Country"
+      ],
+      "descriptors": [
+        "nostalgic",
+        "relaxed",
+        "lyrical"
+      ],
+      "image": "images/noProfile.jpg"
+    },
+    {
+      "artist": "Bad Gyal",
+      "genre": [
+        "Latin"
+      ],
+      "descriptors": [
+        "upbeat",
+        "dancy",
+        "catchy"
+      ],
+      "image": "images/noProfile.jpg"
+    },
+    {
+      "artist": "Karol G",
+      "genre": [
+        "Latin"
+      ],
+      "descriptors": [
+        "catchy",
+        "bubbly",
+        "romantic"
+      ],
+      "image": "images/noProfile.jpg"
+    },
+    {
+      "artist": "J Balvin",
+      "genre": [
+        "Latin"
+      ],
+      "descriptors": [
+        "bass",
+        "happy",
+        "dancy"
+      ],
+      "image": "images/noProfile.jpg"
+    },
+    {
+      "artist": "Rosalia",
+      "genre": [
+        "Latin"
+      ],
+      "descriptors": [
+        "experimental",
+        "intense",
+        "emotional"
+      ],
+      "image": "images/noProfile.jpg"
+    },
+    {
+      "artist": "Young Miko",
+      "genre": [
+        "Latin"
+      ],
+      "descriptors": [
+        "happy",
+        "upbeat",
+        "catchy"
+      ],
+      "image": "images/noProfile.jpg"
+    },
+    {
+      "artist": "Anitta",
+      "genre": [
+        "Latin"
+      ],
+      "descriptors": [
+        "bubbly",
+        "dancy",
+        "light-hearted"
+      ]
+    },
+    {
+      "artist": "Rauw Alejandro",
+      "genre": [
+        "Latin"
+      ],
+      "descriptors": [
+        "dancy",
+        "happy",
+        "romantic"
+      ],
+      "image": "images/noProfile.jpg"
+    },
+    {
+      "artist": "Becky G",
+      "genre": [
+        "Latin"
+      ],
+      "descriptors": [
+        "light-hearted",
+        "catchy",
+        "bubbly"
+      ],
+      "image": "images/noProfile.jpg"
+    },
+    {
+      "artist": "Mon Laferte",
+      "genre": [
+        "Latin"
+      ],
+      "descriptors": [
+        "romantic",
+        "lyrical",
+        "intese"
+      ],
+      "image": "images/noProfile.jpg"
+    },
+    {
+      "artist": "Daddy Yankee",
+      "genre": [
+        "Latin"
+      ],
+      "descriptors": [
+        "loud",
+        "bass",
+        "upbeat"
+      ],
+      "image": "images/noProfile.jpg"
+    },
+    {
+      "artist": "Natti Natasha",
+      "genre": [
+        "Latin"
+      ],
+      "descriptors": [
+        "romantic",
+        "catchy",
+        "light-hearted"
+      ],
+      "image": "images/noProfile.jpg"
+    },
+    {
+      "artist": "Feid",
+      "genre": [
+        "Latin"
+      ],
+      "descriptors": [
+        "gritty",
+        "dancy",
+        "emotional"
+      ],
+      "image": "images/noProfile.jpg"
+    },
+    {
+      "artist": "Camila Cabello",
+      "genre": [
+        "Latin",
+        "Pop"
+      ],
+      "descriptors": [
+        "bubbly",
+        "romantic",
+        "happy"
+      ],
+      "image": "images/noProfile.jpg"
+    },
+    {
+      "artist": "Omar Courtz",
+      "genre": [
+        "Latin"
+      ],
+      "descriptors": [
+        "light-hearted",
+        "upbeat",
+        "gritty"
+      ],
+      "image": "images/noProfile.jpg"
+    },
+    {
+      "artist": "Arca",
+      "genre": [
+        "Latin"
+      ],
+      "descriptors": [
+        "intense",
+        "experimental",
+        "loud"
+      ],
+      "image": "images/noProfile.jpg"
+    },
+    {
+      "artist": "BTS",
+      "genre": [
+        "K-pop"
+      ],
+      "descriptors": [
+        "catchy",
+        "dancy",
+        "emotional"
+      ],
+      "image": "images/noProfile.jpg"
+    },
+    {
+      "artist": "BLACKPINK",
+      "genre": [
+        "K-pop"
+      ],
+      "descriptors": [
+        "intense",
+        "loud",
+        "upbeat"
+      ],
+      "image": "images/noProfile.jpg"
+    },
+    {
+      "artist": "NewJeans",
+      "genre": [
+        "K-pop"
+      ],
+      "descriptors": [
+        "bubbly",
+        "light-hearted",
+        "dancy"
+      ],
+      "image": "images/noProfile.jpg"
+    },
+    {
+      "artist": "EXO",
+      "genre": [
+        "K-pop"
+      ],
+      "descriptors": [
+        "emotional",
+        "romantic",
+        "bass"
+      ],
+      "image": "images/noProfile.jpg"
+    },
+    {
+      "artist": "TWICE",
+      "genre": [
+        "K-pop"
+      ],
+      "descriptors": [
+        "bubbly",
+        "happy",
+        "catchy"
+      ],
+      "image": "images/noProfile.jpg"
+    },
+    {
+      "artist": "SEVENTEEN",
+      "genre": [
+        "K-pop"
+      ],
+      "descriptors": [
+        "upbeat",
+        "dancy",
+        "light-hearted"
+      ],
+      "image": "images/noProfile.jpg"
+    },
+    {
+      "artist": "Stray Kids",
+      "genre": [
+        "K-pop"
+      ],
+      "descriptors": [
+        "gritty",
+        "intense",
+        "experimental"
+      ],
+      "image": "images/noProfile.jpg"
+    },
+    {
+      "artist": "ITZY",
+      "genre": [
+        "K-pop"
+      ],
+      "descriptors": [
+        "loud",
+        "catchy",
+        "upbeat"
+      ],
+      "image": "images/noProfile.jpg"
+    },
+    {
+      "artist": "Red Velvet",
+      "genre": [
+        "K-pop"
+      ],
+      "descriptors": [
+        "romantic",
+        "bubbly",
+        "experimental"
+      ],
+      "image": "images/noProfile.jpg"
+    },
+    {
+      "artist": "LE SSERAFIM",
+      "genre": [
+        "K-pop"
+      ],
+      "descriptors": [
+        "dancy",
+        "intense",
+        "emotional"
+      ],
+      "image": "images/noProfile.jpg"
+    }
+  ]
 }

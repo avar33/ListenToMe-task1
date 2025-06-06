@@ -1,712 +1,1554 @@
 {
-    "songs": [
+  "songs": [
     {
-        "title": "BIRDS OF A FEATHER",
-        "artist": "Billie Eilish",
-        "genre": ["Pop"],
-        "descriptors": ["romantic", "upbeat", "lyrical"]
+      "title": "BIRDS OF A FEATHER",
+      "artist": "Billie Eilish",
+      "genre": [
+        "Pop"
+      ],
+      "descriptors": [
+        "romantic",
+        "upbeat",
+        "lyrical"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/92/9f/69/929f69f1-9977-3a44-d674-11f70c852d1b/24UMGIM36186.rgb.jpg/600x600bb.jpg"
     },
     {
-        "title": "Die With A Smile",
-        "artist": "Lady Gaga & Bruno Mars",
-        "genre": ["Pop"], 
-        "descriptors": ["romantic", "lyrical", "emotional"]
+      "title": "Die With A Smile",
+      "artist": "Lady Gaga & Bruno Mars",
+      "genre": [
+        "Pop"
+      ],
+      "descriptors": [
+        "romantic",
+        "lyrical",
+        "emotional"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/11/ae/f2/11aef294-f57c-bab9-c9fc-529162984e62/24UMGIM85348.rgb.jpg/600x600bb.jpg"
     },
     {
-        "title": "DtMF",
-        "artist": "Bad Bunny",
-        "genre": ["Pop", "Latin"],
-        "descriptors": ["relaxed", "emotional", "nostalgic"]
+      "title": "DtMF",
+      "artist": "Bad Bunny",
+      "genre": [
+        "Pop",
+        "Latin"
+      ],
+      "descriptors": [
+        "relaxed",
+        "emotional",
+        "nostalgic"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/90/5e/7e/905e7ed5-a8fa-a8f3-cd06-0028fdf3afaa/199066342442.jpg/600x600bb.jpg"
     },
     {
-        "title": "WILDFLOWER",
-        "artist": "Billie Eilish",
-        "genre": ["Pop"], 
-        "descriptors": ["sad", "emotional", "slow"]
+      "title": "WILDFLOWER",
+      "artist": "Billie Eilish",
+      "genre": [
+        "Pop"
+      ],
+      "descriptors": [
+        "sad",
+        "emotional",
+        "slow"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/92/9f/69/929f69f1-9977-3a44-d674-11f70c852d1b/24UMGIM36186.rgb.jpg/600x600bb.jpg"
     },
     {
-        "title": "APT.",
-        "artist": "ROSÉ & Bruno Mars",
-        "genre": ["Pop", "K-pop"],
-        "descriptors": ["bubbly", "catchy", "light-hearted"]
+      "title": "APT.",
+      "artist": "ROS\u00c3\u2030 & Bruno Mars",
+      "genre": [
+        "Pop",
+        "K-pop"
+      ],
+      "descriptors": [
+        "bubbly",
+        "catchy",
+        "light-hearted"
+      ],
+      "image": "images/record.jpg"
     },
     {
-        "title": "That’s So True",
-        "artist": "Gracie Abrams",
-        "genre": ["Pop"], 
-        "descriptors": ["upbeat", "catchy", "light-hearted"]
+      "title": "That\u00e2\u20ac\u2122s So True",
+      "artist": "Gracie Abrams",
+      "genre": [
+        "Pop"
+      ],
+      "descriptors": [
+        "upbeat",
+        "catchy",
+        "light-hearted"
+      ],
+      "image": "images/record.jpg"
     },
     {
-        "title": "Show Me Love",
-        "artist": "WizTheMc & bees & honey",
-        "genre": ["Pop"], 
-        "descriptors": ["romatic", "upbeat", "relaxed"]
+      "title": "Show Me Love",
+      "artist": "WizTheMc & bees & honey",
+      "genre": [
+        "Pop"
+      ],
+      "descriptors": [
+        "romatic",
+        "upbeat",
+        "relaxed"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6c/2b/05/6c2b0591-e0a5-5ad2-3764-04ebc7cb2277/074417978757.png/600x600bb.jpg"
     },
     {
-        "title": "Luther",
-        "artist": "Kendrick Lamar & SZA",
-        "genre": ["Pop", "Hip-Hop"], 
-        "descriptors": ["upbeat", "relaxed", "lyrical"]
+      "title": "Luther",
+      "artist": "Kendrick Lamar & SZA",
+      "genre": [
+        "Pop",
+        "Hip-Hop"
+      ],
+      "descriptors": [
+        "upbeat",
+        "relaxed",
+        "lyrical"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/50/c2/cc/50c2cc95-3658-9417-0d4b-831abde44ba1/24UM1IM28978.rgb.jpg/600x600bb.jpg"
     },
     {
-        "title": "Pink Pony Club",
-        "artist": "Chappell Roan",
-        "genre": ["Pop"],
-        "descriptors": ["emotional", "lyrical", "intense"] 
+      "title": "Pink Pony Club",
+      "artist": "Chappell Roan",
+      "genre": [
+        "Pop"
+      ],
+      "descriptors": [
+        "emotional",
+        "lyrical",
+        "intense"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/fb/65/cb/fb65cb0f-4260-d740-d6f5-bb80c9c27c1b/23UMGIM84225.rgb.jpg/600x600bb.jpg"
     },
     {
-        "title": "Tonight",
-        "artist": "PinkPantheress", 
-        "genre": ["Pop"],
-        "descriptors": ["bubbly", "upbeat", "experimental"]
+      "title": "Tonight",
+      "artist": "PinkPantheress",
+      "genre": [
+        "Pop"
+      ],
+      "descriptors": [
+        "bubbly",
+        "upbeat",
+        "experimental"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/04/25/19/0425199b-f3d9-c529-2445-c0ef1aea6313/427d9fe9-b5f0-43df-8a92-345478e7f761.png/600x600bb.jpg"
     },
     {
-    "title": "Billie Jean",
-    "artist": "Michael Jackson",
-    "genre": ["Pop"],
-    "descriptors": ["upbeat", "nostalgic", "catchy"]
-  },
-  {
-    "title": "So Hot You're Hurting My Feelings",
-    "artist": "Caroline Polacheck",
-    "genre": ["Pop", "Indie"],
-    "descriptors": ["dancy","upbeat","experimental"]
-  },
-  {
-    "title": "Rolling in the Deep",
-    "artist": "Adele",
-    "genre": ["Pop"],
-    "descriptors": ["sad", "lyrical", "intense"]
-  },
-  {
-    "title": "party 4 u",
-    "artist": "Charli xcx",
-    "genre": ["Pop", "Electronic"],
-    "descriptors": ["sad","upbeat", "experimental"]
-  },
-  {
-    "title": "Toxic",
-    "artist": "Britney Spears",
-    "genre": ["Pop"],
-    "descriptors": ["upbeat", "intense", "catchy"]
-  },
-  {
-    "title": "I Want It That Way",
-    "artist": "Backstreet Boys",
-    "genre": ["Pop"],
-    "descriptors": ["romantic", "sad", "upbeat"]
-  },
-  {
-    "title": "In Your Eyes",
-    "artist": "Kylie Minogue",
-    "genre": ["Pop"],
-    "descriptors": ["romantic", "upbeat", "dancy"]
-  },
-  {
-    "title": "Blinding Lights",
-    "artist": "The Weeknd",
-    "genre": ["Pop"],
-    "descriptors": ["upbeat", "emotional","intense"]
-  },
-  {
-    "title": "Hey Ya!",
-    "artist": "OutKast",
-    "genre": ["Pop"],
-    "descriptors": ["loud", "dancy", "sad"]
-  },
-  {
-    "title": "Dancing Queen",
-    "artist": "ABBA",
-    "genre": ["Pop"],
-    "descriptors": ["happy", "dancy", "nostalgic"]
-  },
-  {
-    "title": "first take",
-    "artist": "travis Scott",
-    "genre": ["Hip-Hop"],
-    "descriptors": ["romantic", "relaxed", "experimental"]
-  },
-  {
-    "title": "Landgrab",
-    "artist": "Earl Sweatshirt & Mavi",
-    "genre": ["Hip-Hop"],
-    "descriptors": ["lyrical", "relaxed", "light-hearted"]
-  },
-  {
-    "title": "Zealots",
-    "artist": "Fugees",
-    "genre": ["Hip-Hop"],
-    "descriptors": ["lyrical", "upbeat", "relaxed"]
-  },
-  {
-    "title": "We Not Done",
-    "artist": "42 Dugg",
-    "genre": ["Hip-Hop"],
-    "descriptors": ["upbeat", "catchy", "bass"]
-  },
-  {
-    "title": "The Spirit of Prodigy",
-    "artist": "38 Spesh, Grafh, Havoc",
-    "genre": ["Hip-Hop"],
-    "descriptors": ["lyrical", "gritty", "intense"]
-  },
-  {
-    "title": "Ace Trumpets",
-    "artist": "Clipse",
-    "genre": ["Hip-Hop"],
-    "descriptors": ["slow", "gritty", "loud"]
-  },
-  {
-    "title": "meant2b",
-    "artist": "Amine",
-    "genre": ["Hip-Hop"],
-    "descriptors": ["upbeat", "happy", "nostalgic"]
-  },
-  {
-    "title": "The Spins",
-    "artist": "Mac Miller & Empire of the Sun",
-    "genre": ["Hip-Hop"],
-    "descriptors": ["upbeat", "catchy", "light-hearted"]
-  },
-  {
-    "title": "LONDON",
-    "artist": "BIA ft. J.Cole",
-    "genre": ["Hip-Hop"],
-    "descriptors": ["upbeat", "catchy", "light-hearted"]
-  },
-  {
-    "title": "New Bottega",
-    "artist": "Azelia Banks & Torren Foot",
-    "genre": ["Hip-Hop", "Electronic"],
-    "descriptors": ["catchy", "experimental", "dancy"]
-  },
-  {
-    "title": "The Message",
-    "artist": "Grandmaster Flash & The Furious Five",
-    "genre": ["Hip-Hop"],
-    "descriptors": ["lyrical", "upbeat", "dancy"]
-  },
-  {
-    "title": "C.R.E.A.M.",
-    "artist": "Wu-Tang Clan",
-    "genre": ["Hip-Hop"],
-    "descriptors": ["relaxed", "nostalgic", "slow"]
-  },
-  {
-    "title": "Fight the Power",
-    "artist": "Public Enemy",
-    "genre": ["Hip-Hop"],
-    "descriptors": ["loud", "upbeat", "lyrical"]
-  },
-  {
-    "title": "Johnny P's Caddy",
-    "artist": "Benny The Butcher & J.Cole",
-    "genre": ["Hip-Hop"],
-    "descriptors": ["lyrical", "relaxed", "gritty"]
-  },
-  {
-    "title": "Burning Blue",
-    "artist": "Mariah the Scientist",
-    "genre": ["RnB"],
-    "descriptors": ["relaxed", "emotional", "sad"]
-  },
-  {
-    "title": "Alright",
-    "artist": "Victoria Monét",
-    "genre": ["RnB"],
-    "descriptors": ["upbeat", "gritty", "catchy"]
-  },
-  {
-    "title": "Best Part",
-    "artist": "Daniel Caesar ft. H.E.R.",
-    "genre": ["RnB"],
-    "descriptors": ["romantic", "slow", "emotional"]
-  },
-  {
-    "title": "Poison",
-    "artist": "Brent Faiyaz",
-    "genre": ["RnB"],
-    "descriptors": ["romantic", "slow", "gritty"]
-  },
-  {
-    "title": "Butterflies Pt. 3",
-    "artist": "Queen Naija",
-    "genre": ["RnB"],
-    "descriptors": ["relaxed", "emotional", "romantic"]
-  },
-  {
-    "title": "The One",
-    "artist": "Jorja Smith",
-    "genre": ["RnB"],
-    "descriptors": ["relaxed", "upbeat", "sad"]
-  },
-  {
-    "title": "Favorite Jeans",
-    "artist": "Free Party",
-    "genre": ["RnB"],
-    "descriptors": ["relaxed", "upbeat", "romantic"]
-  },
-  {
-    "title": "tears in the club",
-    "artist": "FKA twigs & The Weeknd",
-    "genre": ["RnB"],
-    "descriptors": ["upbeat", "lyrical", "experimental"]
-  },
-  {
-    "title": "Can We Talk",
-    "artist": "Tevin Campbell",
-    "genre": ["RnB"],
-    "descriptors": ["romantic", "upbeat", "emotional"]
-  },
-  {
-    "title": "Ordinary People",
-    "artist": "John Legend",
-    "genre": ["RnB"],
-    "descriptors": ["romantic", "slow", "emotional"]
-  },
-  {
-    "title": "We Belong Together",
-    "artist": "Mariah Carey",
-    "genre": ["RnB"],
-    "descriptors": ["romantic", "emotional", "sad"]
-  },
-  {
-    "title": "Adorn",
-    "artist": "Miguel",
-    "genre": ["RnB"],
-    "descriptors": ["upbeat", "romantic", "dancy"]
-  },
-  {
-    "title": "Bad Memories",
-    "artist": "MEDUZA, James Carter ft. Elley Duhé & FAST BOY",
-    "genre": ["Electronic"],
-    "descriptors": ["loud", "happy", "upbeat"]
-  },
-  {
-    "title": "Turn On the Lights again..",
-    "artist": "Fred again.., Swedish House Mafia, Future",
-    "genre": ["Electronic"],
-    "descriptors": ["bass", "experimental", "dancy"]
-  },
-  {
-    "title": "Everything Goes On",
-    "artist": "Porter Robinson",
-    "genre": ["Electronic"],
-    "descriptors": ["relaxed", "emotional", "lyrical"]
-  },
-  {
-    "title": "Escape",
-    "artist": "Kx5 (Kaskade & deadmau5) ft. Hayla",
-    "genre": ["Electronic"],
-    "descriptors": ["upbeat", "dancy", "emotional"]
-  },
-  {
-    "title": "Love Tonight",
-    "artist": "Shouse",
-    "genre": ["Electronic"],
-    "descriptors": ["emotional", "dancy", "romantic"]
-  },
-  {
-    "title": "Rumble",
-    "artist": "Skrillex, Fred again.. & Flowdan",
-    "genre": ["Electronic"],
-    "descriptors": ["experimental", "gritty", "intense"]
-  },
-  {
-    "title": "Strobe",
-    "artist": "deadmau5",
-    "genre": ["Electronic"],
-    "descriptors": ["upbeat", "dancy", "happy"]
-  },
-  {
-    "title": "One More Time",
-    "artist": "Daft Punk",
-    "genre": ["Electronic"],
-    "descriptors": ["happy", "dancy", "light-hearted"]
-  },
-  {
-    "title": "take it offff",
-    "artist": "horsegiirL",
-    "genre": ["Electronic"],
-    "descriptors": ["bubbly", "dancy", "light-hearted"]
-  },
-  {
-    "title": "Berlin Nightmare",
-    "artist": "SPOHIE & Evita Manji",
-    "genre": ["Electronic"],
-    "descriptors": ["experimental", "bass", "intense"]
-  },
-  {
-    "title": "Arintintin",
-    "artist": "Rico Nasty & Boys Noize",
-    "genre": ["Electronic"],
-    "descriptors": ["bubbly", "upbeat", "dancy"]
-  },
-  {
-    "title": "Besos En El Club",
-    "artist": "SoFTT",
-    "genre": ["Electronic", "Latin"],
-    "descriptors": ["dancy", "bubbly", "happy"]
-  },
-  {
-    "title": "Go",
-    "artist": "The Chemical Brothers",
-    "genre": ["Electronic"],
-    "descriptors": ["loud", "upbeat", "happy"]
-  },
-  {
-    "title": "Lost",
-    "artist": "Linkin Park",
-    "genre": ["Rock"],
-    "descriptors": ["sad", "gritty", "intense"]
-  },
-  {
-    "title": "Rescued",
-    "artist": "Foo Fighters",
-    "genre": ["Rock"],
-    "descriptors": ["sad", "upbeat", "emotional"]
-  },
-  {
-    "title": "Black Summer",
-    "artist": "Red Hot Chili Peppers",
-    "genre": ["Rock"],
-    "descriptors": ["relaxed", "upbeat", "nostalgic"]
-  },
-  {
-    "title": "The American Dream Is Killing Me",
-    "artist": "Green Day",
-    "genre": ["Rock", "Alternative"],
-    "descriptors": ["lyrical", "upbeat", "gritty"]
-  },
-  {
-    "title": "Always There",
-    "artist": "Greta Van Fleet",
-    "genre": ["Rock"],
-    "descriptors": ["romantic", "emotional", "happy"]
-  },
-  {
-    "title": "Scarlet",
-    "artist": "The Rolling Stones & Jimmy Page",
-    "genre": ["Rock"],
-    "descriptors": ["relaxed", "upbeat", "catchy"]
-  },
-  {
-    "title": "Miente",
-    "artist": "Bengala",
-    "genre": ["Rock", "Latin"],
-    "descriptors": ["upbeat", "loud", "emotional"]
-  },
-  {
-    "title": "Guitarras Blancas",
-    "artist": "Red Hot Chili Peppers",
-    "genre": ["Rock"],
-    "descriptors": ["upbeat", "happy", "catchy"]
-  },
-  {
-    "title": "Love Buzz",
-    "artist": "Nirvana",
-    "genre": ["Rock"],
-    "descriptors": ["gritty", "loud", "romantic"]
-  },
-  {
-    "title": "Hotel California",
-    "artist": "Eagles",
-    "genre": ["Rock"],
-    "descriptors": ["nostalgic", "intense", "lyrical"]
-  },
-  {
-    "title": "No Quarter",
-    "artist": "Led Zeppelin",
-    "genre": ["Rock"],
-    "descriptors": ["slow", "nostalgic", "experimental"]
-  },
-   {
-    "title": "This Is Why",
-    "artist": "Paramore",
-    "genre": ["Alternative","Rock"],
-    "descriptors": ["lyrical", "upbeat", "dancy"]
-  },
-  {
-    "title": "The Adults Are Talking",
-    "artist": "The Strokes",
-    "genre": ["Alternative","Rock"],
-    "descriptors": ["upbeat", "happy", "catchy"]
-  },
-  {
-    "title": "Stick Season",
-    "artist": "Noah Kahan",
-    "genre": ["Alternative"],
-    "descriptors": ["emotional", "romantic", "sad"]
-  },
-  {
-    "title": "Love Me",
-    "artist": "The 1975",
-    "genre": ["Alternative"],
-    "descriptors": ["happy", "upbeat", "light-hearted"]
-  },
-  {
-    "title": "Kyoto",
-    "artist": "Phoebe Bridgers",
-    "genre": ["Alternative"],
-    "descriptors": ["upbeat", "emotional", "lyrical"]
-  },
-  {
-    "title": "Flourescent Adolescent",
-    "artist": "Arctic Monkeys",
-    "genre": ["Alternative", "Rock"],
-    "descriptors": ["light-hearted", "upbeat", "catchy"]
-  },
-  {
-    "title": "Tobacco Sunburst",
-    "artist": "The Neighbourhood",
-    "genre": ["Alternative"],
-    "descriptors": ["emotional", "nostalgic", "slow"]
-  },
-  {
-    "title": "Take Me Out",
-    "artist": "Franz Ferdinand",
-    "genre": ["Alternative", "Rock"],
-    "descriptors": ["upbeat", "emotional", "gritty"]
-  },
-  {
-    "title": "Bad Religion",
-    "artist": "Frank Ocean",
-    "genre": ["Alternative", "RnB"],
-    "descriptors": ["emotional", "intense", "experimental"]
-  },
-  {
-    "title": "Me & My Dog",
-    "artist": "boygenius",
-    "genre": ["Indie"],
-    "descriptors": ["sad", "emotional", "lyrical"]
-  },
-  {
-    "title": "if u want",
-    "artist": "Keni Titus",
-    "genre": ["Indie"],
-    "descriptors": ["romantic", "upbeat", "bubbly"]
-  },
-  {
-    "title": "Chaise Longue",
-    "artist": "Wet Leg",
-    "genre": ["Indie", "Alternative"],
-    "descriptors": ["experimental", "light-hearted", "upbeat"]
-  },
-  {
-    "title": "Little Bit More",
-    "artist": "Mk.gee",
-    "genre": ["Indie"],
-    "descriptors": ["relaxed", "nostalgic", "gritty"]
-  },
-  {
-    "title": "Heavy",
-    "artist": "The Marias",
-    "genre": ["Indie"],
-    "descriptors": ["emotional", "relaxed", "lyrical"]
-  },
-  {
-    "title": "Bags",
-    "artist": "Clairo",
-    "genre": ["Indie"],
-    "descriptors": ["bubbly", "relaxed", "upbeat"]
-  },
-  {
-    "title": "New Slang",
-    "artist": "The Shins",
-    "genre": ["Indie"],
-    "descriptors": ["emotional", "relaxed", "lyrical"]
-  },
-  {
-    "title": "CASPER",
-    "artist": "Eli",
-    "genre": ["Indie", "Electronic"],
-    "descriptors": ["emotional", "upbeat", "lyrical"]
-  },
-  {
-    "title": "doomsday",
-    "artist": "Lizzy McAlpine",
-    "genre": ["Indie"],
-    "descriptors": ["sad", "emotional", "intense"]
-  },
-  {
-    "title": "I Remember Everything",
-    "artist": "Zach Bryan ft. Kacey Musgraves",
-    "genre": ["Country"],
-    "descriptors": ["emotional", "sad", "lyrical"]
-  },
-  {
-    "title": "Last Night",
-    "artist": "Morgan Wallen",
-    "genre": ["Country"],
-    "descriptors": ["emotional", "nostalgic", "romantic"]
-  },
-  {
-    "title": "Fast Car",
-    "artist": "Luke Combs",
-    "genre": ["Country"],
-    "descriptors": ["nostalgic", "emotional", "romantic"]
-  },
-  {
-    "title": "Wait in the Truck",
-    "artist": "HARDY ft. Lainey Wilson",
-    "genre": ["Country"],
-    "descriptors": ["gritty", "intense", "emotional"]
-  },
-  {
-    "title": "Heart Like a Truck",
-    "artist": "Lainey Wilson",
-    "genre": ["Country"],
-    "descriptors": ["emotional", "lyrical", "upbeat"]
-  },
-  {
-    "title": "Tennessee Whiskey",
-    "artist": "Chris Stapleton",
-    "genre": ["Country"],
-    "descriptors": ["romantic", "slow", "emotional"]
-  },
-  {
-    "title": "Jolene",
-    "artist": "Dolly Parton",
-    "genre": ["Country"],
-    "descriptors": ["emotional", "lyrical", "romantic"]
-  },
-  {
-    "title": "Before He Cheats",
-    "artist": "Carrie Underwood",
-    "genre": ["Country"],
-    "descriptors": ["gritty", "intense", "loud"]
-  },
-  {
-    "title": "Take Me Home, Country Roads",
-    "artist": "John Denver",
-    "genre": ["Country"],
-    "descriptors": ["nostalgic", "light-hearted", "happy"]
-  },
-  {
-    "title": "The Gambler",
-    "artist": "Kenny Rogers",
-    "genre": ["Country"],
-    "descriptors": ["lyrical", "relaxed", "nostalgic"]
-  },
-  {
-    "title": "La Falda",
-    "artist": "Myke Towers",
-    "genre": ["Latin"],
-    "descriptors": ["dancy", "gritty", "bass"]
-  },
-  {
-    "title": "DIABLA",
-    "artist": "Figa Flawas & Mushkaa",
-    "genre": ["Latin"],
-    "descriptors": ["loud", "intense", "experimental"]
-  },
-  {
-    "title": "Ojitos Lindos",
-    "artist": "Bad Bunny & Bomba Estéreo",
-    "genre": ["Latin"],
-    "descriptors": ["romantic", "lyrical", "relaxed"]
-  },
-  {
-    "title": "Provenza",
-    "artist": "Karol G",
-    "genre": ["Latin"],
-    "descriptors": ["light-hearted", "dancy", "happy"]
-  },
-  {
-    "title": "Pepas",
-    "artist": "Farruko",
-    "genre": ["Latin"],
-    "descriptors": ["loud", "bass", "dancy"]
-  },
-  {
-    "title": "Cuando Pasa el Temblor",
-    "artist": "Luis Fonsi ft. Daddy Yankee",
-    "genre": ["Latin"],
-    "descriptors": ["upbeat", "catchy", "happy"]
-  },
-  {
-    "title": "Dákiti",
-    "artist": "Bad Bunny & Jhay Cortez",
-    "genre": ["Latin"],
-    "descriptors": ["bass", "romantic", "relaxed"]
-  },
-  {
-    "title": "512",
-    "artist": "Mora & JHAYCO",
-    "genre": ["Latin"],
-    "descriptors": ["catchy", "romantic", "bass"]
-  },
-  {
-    "title": "BUENOS AIRES",
-    "artist": "NATHY PELUSO",
-    "genre": ["Latin"],
-    "descriptors": ["experimental", "lyrical", "intense"]
-  },
-  {
-    "title": "La Bicicleta",
-    "artist": "Carlos Vives & Shakira",
-    "genre": ["Latin"],
-    "descriptors": ["light-hearted", "happy", "bubbly"]
-  },
-  {
-    "title": "Super Shy",
-    "artist": "NewJeans",
-    "genre": ["K-pop"],
-    "descriptors": ["bubbly", "catchy", "light-hearted"]
-  },
-  {
-    "title": "Seven",
-    "artist": "Jungkook ft. Latto",
-    "genre": ["K-pop"],
-    "descriptors": ["romantic", "bass", "happy"]
-  },
-  {
-    "title": "ETA",
-    "artist": "NewJeans",
-    "genre": ["K-pop"],
-    "descriptors": ["light-hearted", "catchy", "bubbly"]
-  },
-  {
-    "title": "Shut Down",
-    "artist": "BLACKPINK",
-    "genre": ["K-pop"],
-    "descriptors": ["bass", "gritty", "intense"]
-  },
-  {
-    "title": "God's Menu",
-    "artist": "Stray Kids",
-    "genre": ["K-pop"],
-    "descriptors": ["loud", "experimental", "intense"]
-  },
-  {
-    "title": "Love Dive",
-    "artist": "IVE",
-    "genre": ["K-pop"],
-    "descriptors": ["romantic", "bubbly", "catchy"]
-  },
-  {
-    "title": "Case 143",
-    "artist": "Stray Kids",
-    "genre": ["K-pop"],
-    "descriptors": ["catchy", "gritty", "upbeat"]
-  },
-  {
-    "title": "Pink Venom",
-    "artist": "BLACKPINK",
-    "genre": ["K-pop"],
-    "descriptors": ["intense", "bass", "loud"]
-  },
-  {
-    "title": "Hype Boy",
-    "artist": "NewJeans",
-    "genre": ["K-pop"],
-    "descriptors": ["happy", "bubbly", "catchy"]
-  },
-  {
-    "title": "Butter",
-    "artist": "BTS",
-    "genre": ["K-pop"],
-    "descriptors": ["bubbly", "upbeat", "catchy"]
-  }
-]
+      "title": "Billie Jean",
+      "artist": "Michael Jackson",
+      "genre": [
+        "Pop"
+      ],
+      "descriptors": [
+        "upbeat",
+        "nostalgic",
+        "catchy"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/3d/9d/38/3d9d3811-71f0-3a0e-1ada-3004e56ff852/827969428726.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "So Hot You're Hurting My Feelings",
+      "artist": "Caroline Polacheck",
+      "genre": [
+        "Pop",
+        "Indie"
+      ],
+      "descriptors": [
+        "dancy",
+        "upbeat",
+        "experimental"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/bb/54/70/bb547075-db39-9b4c-5099-00655f917189/886447908150.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "Rolling in the Deep",
+      "artist": "Adele",
+      "genre": [
+        "Pop"
+      ],
+      "descriptors": [
+        "sad",
+        "lyrical",
+        "intense"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d8/e3/f9/d8e3f9ea-d6fe-9a1b-9f13-109983d3062e/191404113868.png/600x600bb.jpg"
+    },
+    {
+      "title": "party 4 u",
+      "artist": "Charli xcx",
+      "genre": [
+        "Pop",
+        "Electronic"
+      ],
+      "descriptors": [
+        "sad",
+        "upbeat",
+        "experimental"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1a/5c/e9/1a5ce93c-aef4-6667-b7d1-7162203e1c39/190295229993.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "Toxic",
+      "artist": "Britney Spears",
+      "genre": [
+        "Pop"
+      ],
+      "descriptors": [
+        "upbeat",
+        "intense",
+        "catchy"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/38/8b/7a/388b7a8f-10ff-a4e0-7624-65e29ac6a793/828765374828.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "I Want It That Way",
+      "artist": "Backstreet Boys",
+      "genre": [
+        "Pop"
+      ],
+      "descriptors": [
+        "romantic",
+        "sad",
+        "upbeat"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/5f/6b/e9/5f6be919-1b9e-30ef-45b7-cc27fc428fd5/012414167224.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "In Your Eyes",
+      "artist": "Kylie Minogue",
+      "genre": [
+        "Pop"
+      ],
+      "descriptors": [
+        "romantic",
+        "upbeat",
+        "dancy"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/2d/27/f4/2d27f445-abf6-f360-f56a-683b65c9b842/dj.hhpuvuwv.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "Blinding Lights",
+      "artist": "The Weeknd",
+      "genre": [
+        "Pop"
+      ],
+      "descriptors": [
+        "upbeat",
+        "emotional",
+        "intense"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/6f/bc/e6/6fbce6c4-c38c-72d8-4fd0-66cfff32f679/20UMGIM12176.rgb.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "Hey Ya!",
+      "artist": "OutKast",
+      "genre": [
+        "Pop"
+      ],
+      "descriptors": [
+        "loud",
+        "dancy",
+        "sad"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/03/7c/ef/037cefcd-f26d-47f0-9093-e2a249c2b567/cover.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "Dancing Queen",
+      "artist": "ABBA",
+      "genre": [
+        "Pop"
+      ],
+      "descriptors": [
+        "happy",
+        "dancy",
+        "nostalgic"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/6c/b4/c3/mzi.ztkhlnwz.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "first take",
+      "artist": "travis Scott",
+      "genre": [
+        "Hip-Hop"
+      ],
+      "descriptors": [
+        "romantic",
+        "relaxed",
+        "experimental"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/50/f7/a3/50f7a39d-3bd5-28e9-0264-532f08b5b810/886446074726.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "Landgrab",
+      "artist": "Earl Sweatshirt & Mavi",
+      "genre": [
+        "Hip-Hop"
+      ],
+      "descriptors": [
+        "lyrical",
+        "relaxed",
+        "light-hearted"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/70/21/5e/70215e28-1943-cb1d-22d2-cbd0e2217182/artwork.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "Zealots",
+      "artist": "Fugees",
+      "genre": [
+        "Hip-Hop"
+      ],
+      "descriptors": [
+        "lyrical",
+        "upbeat",
+        "relaxed"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/c3/66/3f/c3663fe2-5c90-f701-93f8-54d5b56bc1df/888880608932.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "We Not Done",
+      "artist": "42 Dugg",
+      "genre": [
+        "Hip-Hop"
+      ],
+      "descriptors": [
+        "upbeat",
+        "catchy",
+        "bass"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/42/69/67/4269677e-6a69-5412-eb8f-7aa37c0216c0/25UMGIM70936.rgb.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "The Spirit of Prodigy",
+      "artist": "38 Spesh, Grafh, Havoc",
+      "genre": [
+        "Hip-Hop"
+      ],
+      "descriptors": [
+        "lyrical",
+        "gritty",
+        "intense"
+      ],
+      "image": "images/record.jpg"
+    },
+    {
+      "title": "Ace Trumpets",
+      "artist": "Clipse",
+      "genre": [
+        "Hip-Hop"
+      ],
+      "descriptors": [
+        "slow",
+        "gritty",
+        "loud"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/be/b9/09/beb9094f-d3ee-1b36-08e1-87affe531c92/f004797e-ec95-4d55-a13f-884ac32aaf36.png/600x600bb.jpg"
+    },
+    {
+      "title": "meant2b",
+      "artist": "Amine",
+      "genre": [
+        "Hip-Hop"
+      ],
+      "descriptors": [
+        "upbeat",
+        "happy",
+        "nostalgic"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/aa/79/52/aa7952c1-150b-e440-f548-08d412467fe7/5000x5000-810061615217-0-0.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "The Spins",
+      "artist": "Mac Miller & Empire of the Sun",
+      "genre": [
+        "Hip-Hop"
+      ],
+      "descriptors": [
+        "upbeat",
+        "catchy",
+        "light-hearted"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/bc/d4/93/bcd49360-6c2b-5210-39a5-f6a17e6d77cc/192641480034.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "LONDON",
+      "artist": "BIA ft. J.Cole",
+      "genre": [
+        "Hip-Hop"
+      ],
+      "descriptors": [
+        "upbeat",
+        "catchy",
+        "light-hearted"
+      ],
+      "image": "images/record.jpg"
+    },
+    {
+      "title": "New Bottega",
+      "artist": "Azelia Banks & Torren Foot",
+      "genre": [
+        "Hip-Hop",
+        "Electronic"
+      ],
+      "descriptors": [
+        "catchy",
+        "experimental",
+        "dancy"
+      ],
+      "image": "images/record.jpg"
+    },
+    {
+      "title": "The Message",
+      "artist": "Grandmaster Flash & The Furious Five",
+      "genre": [
+        "Hip-Hop"
+      ],
+      "descriptors": [
+        "lyrical",
+        "upbeat",
+        "dancy"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/c2/34/48/c234484e-a6f3-4355-6d41-24275da82c74/s06.kststhcn.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "C.R.E.A.M.",
+      "artist": "Wu-Tang Clan",
+      "genre": [
+        "Hip-Hop"
+      ],
+      "descriptors": [
+        "relaxed",
+        "nostalgic",
+        "slow"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7c/58/b1/7c58b153-2525-d47f-ab7a-9c9fe6882826/888880400017.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "Fight the Power",
+      "artist": "Public Enemy",
+      "genre": [
+        "Hip-Hop"
+      ],
+      "descriptors": [
+        "loud",
+        "upbeat",
+        "lyrical"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5f/56/ff/5f56ff7b-71b3-3e5f-208a-3b20d96bb4b0/06UMGIM21173.rgb.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "Johnny P's Caddy",
+      "artist": "Benny The Butcher & J.Cole",
+      "genre": [
+        "Hip-Hop"
+      ],
+      "descriptors": [
+        "lyrical",
+        "relaxed",
+        "gritty"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/e5/f6/aa/e5f6aae2-2142-5cb1-a459-cd68a2234fbe/194690791918_cover.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "Burning Blue",
+      "artist": "Mariah the Scientist",
+      "genre": [
+        "RnB"
+      ],
+      "descriptors": [
+        "relaxed",
+        "emotional",
+        "sad"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/44/0b/b4/440bb4fb-9717-f27d-4486-9e31718fffa4/196873070889.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "Alright",
+      "artist": "Victoria Mon\u00c3\u00a9t",
+      "genre": [
+        "RnB"
+      ],
+      "descriptors": [
+        "upbeat",
+        "gritty",
+        "catchy"
+      ],
+      "image": "images/record.jpg"
+    },
+    {
+      "title": "Best Part",
+      "artist": "Daniel Caesar ft. H.E.R.",
+      "genre": [
+        "RnB"
+      ],
+      "descriptors": [
+        "romantic",
+        "slow",
+        "emotional"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/27/40/34/274034b3-42d9-ba59-b22c-dc4f57672ee0/886446799513.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "Poison",
+      "artist": "Brent Faiyaz",
+      "genre": [
+        "RnB"
+      ],
+      "descriptors": [
+        "romantic",
+        "slow",
+        "gritty"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/4f/39/43/4f39439f-fa9b-9b93-bd68-e808767a43d6/859718224273_cover.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "Butterflies Pt. 3",
+      "artist": "Queen Naija",
+      "genre": [
+        "RnB"
+      ],
+      "descriptors": [
+        "relaxed",
+        "emotional",
+        "romantic"
+      ],
+      "image": "images/record.jpg"
+    },
+    {
+      "title": "The One",
+      "artist": "Jorja Smith",
+      "genre": [
+        "RnB"
+      ],
+      "descriptors": [
+        "relaxed",
+        "upbeat",
+        "sad"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/9f/da/5d/9fda5dfb-8be4-e656-6fb3-a83cc9dbd60a/192562402849.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "Favorite Jeans",
+      "artist": "Free Party",
+      "genre": [
+        "RnB"
+      ],
+      "descriptors": [
+        "relaxed",
+        "upbeat",
+        "romantic"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/39/c4/6b/39c46b4e-6893-9962-c379-c14dadde6807/810061613824-0-0.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "tears in the club",
+      "artist": "FKA twigs & The Weeknd",
+      "genre": [
+        "RnB"
+      ],
+      "descriptors": [
+        "upbeat",
+        "lyrical",
+        "experimental"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/8b/e0/83/8be08379-7184-9dcb-ee56-c609ae819737/075679760906.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "Can We Talk",
+      "artist": "Tevin Campbell",
+      "genre": [
+        "RnB"
+      ],
+      "descriptors": [
+        "romantic",
+        "upbeat",
+        "emotional"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/9f/8c/f7/9f8cf782-ec14-6197-0d58-037fcb3cdf32/mzi.brrhxbzw.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "Ordinary People",
+      "artist": "John Legend",
+      "genre": [
+        "RnB"
+      ],
+      "descriptors": [
+        "romantic",
+        "slow",
+        "emotional"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Features/39/1b/f5/dj.gfjzvwbv.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "We Belong Together",
+      "artist": "Mariah Carey",
+      "genre": [
+        "RnB"
+      ],
+      "descriptors": [
+        "romantic",
+        "emotional",
+        "sad"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/34/66/31/346631f0-dc0e-500f-7cb8-537e7523e022/15UMGIM78299.rgb.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "Adorn",
+      "artist": "Miguel",
+      "genre": [
+        "RnB"
+      ],
+      "descriptors": [
+        "upbeat",
+        "romantic",
+        "dancy"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/a1/56/ac/a156acb2-068e-a616-3e56-86ca656c14ce/886443632943.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "Bad Memories",
+      "artist": "MEDUZA, James Carter ft. Elley Duh\u00c3\u00a9 & FAST BOY",
+      "genre": [
+        "Electronic"
+      ],
+      "descriptors": [
+        "loud",
+        "happy",
+        "upbeat"
+      ],
+      "image": "images/record.jpg"
+    },
+    {
+      "title": "Turn On the Lights again..",
+      "artist": "Fred again.., Swedish House Mafia, Future",
+      "genre": [
+        "Electronic"
+      ],
+      "descriptors": [
+        "bass",
+        "experimental",
+        "dancy"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/1c/4d/34/1c4d3479-4fe5-5c0a-ccfe-c45cbb9bf843/5054197263439.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "Everything Goes On",
+      "artist": "Porter Robinson",
+      "genre": [
+        "Electronic"
+      ],
+      "descriptors": [
+        "relaxed",
+        "emotional",
+        "lyrical"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/a1/63/59/a1635961-1831-92e7-894a-a291b799e5db/811395036945.png/600x600bb.jpg"
+    },
+    {
+      "title": "Escape",
+      "artist": "Kx5 (Kaskade & deadmau5) ft. Hayla",
+      "genre": [
+        "Electronic"
+      ],
+      "descriptors": [
+        "upbeat",
+        "dancy",
+        "emotional"
+      ],
+      "image": "images/record.jpg"
+    },
+    {
+      "title": "Love Tonight",
+      "artist": "Shouse",
+      "genre": [
+        "Electronic"
+      ],
+      "descriptors": [
+        "emotional",
+        "dancy",
+        "romantic"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/b9/77/c8/b977c8ee-c3f7-a940-1765-8f7a8fecdebb/192641751943_Cover.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "Rumble",
+      "artist": "Skrillex, Fred again.. & Flowdan",
+      "genre": [
+        "Electronic"
+      ],
+      "descriptors": [
+        "experimental",
+        "gritty",
+        "intense"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/fc/f4/6b/fcf46b95-cf27-9f04-94c2-4ad257b7a5a6/075679695239.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "Strobe",
+      "artist": "deadmau5",
+      "genre": [
+        "Electronic"
+      ],
+      "descriptors": [
+        "upbeat",
+        "dancy",
+        "happy"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e4/ba/86/e4ba86de-a58f-f392-7723-75eff7d2c476/883958014226_1.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "One More Time",
+      "artist": "Daft Punk",
+      "genre": [
+        "Electronic"
+      ],
+      "descriptors": [
+        "happy",
+        "dancy",
+        "light-hearted"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fd/4a/77/fd4a77db-0ebc-d043-41a2-f32fa1bb0fb4/dj.qrikkdwj.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "take it offff",
+      "artist": "horsegiirL",
+      "genre": [
+        "Electronic"
+      ],
+      "descriptors": [
+        "bubbly",
+        "dancy",
+        "light-hearted"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/58/b0/37/58b03705-26c7-7872-0de3-e00632c3698b/5034644215624.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "Berlin Nightmare",
+      "artist": "SPOHIE & Evita Manji",
+      "genre": [
+        "Electronic"
+      ],
+      "descriptors": [
+        "experimental",
+        "bass",
+        "intense"
+      ],
+      "image": "images/record.jpg"
+    },
+    {
+      "title": "Arintintin",
+      "artist": "Rico Nasty & Boys Noize",
+      "genre": [
+        "Electronic"
+      ],
+      "descriptors": [
+        "bubbly",
+        "upbeat",
+        "dancy"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/05/b0/84/05b084c4-672c-0a89-05ae-ca42e5143e81/075679660213.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "Besos En El Club",
+      "artist": "SoFTT",
+      "genre": [
+        "Electronic",
+        "Latin"
+      ],
+      "descriptors": [
+        "dancy",
+        "bubbly",
+        "happy"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/96/03/97/9603973d-18c1-ed34-1fec-756438bc3df6/2273.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "Go",
+      "artist": "The Chemical Brothers",
+      "genre": [
+        "Electronic"
+      ],
+      "descriptors": [
+        "loud",
+        "upbeat",
+        "happy"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/28/1d/18/281d18b6-4793-16b3-88d6-fe913bc94a7b/00602547328632.rgb.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "Lost",
+      "artist": "Linkin Park",
+      "genre": [
+        "Rock"
+      ],
+      "descriptors": [
+        "sad",
+        "gritty",
+        "intense"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/ae/96/55/ae965544-a29d-5355-910a-1cc14dab7542/contsched.ltemslzy.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "Rescued",
+      "artist": "Foo Fighters",
+      "genre": [
+        "Rock"
+      ],
+      "descriptors": [
+        "sad",
+        "upbeat",
+        "emotional"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/50/41/c9/5041c992-e078-77c1-442a-ff896abd59db/196871063197.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "Black Summer",
+      "artist": "Red Hot Chili Peppers",
+      "genre": [
+        "Rock"
+      ],
+      "descriptors": [
+        "relaxed",
+        "upbeat",
+        "nostalgic"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/6a/f5/6b/6af56b1d-1cc8-68e8-a428-5caccf20e69a/093624880639.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "The American Dream Is Killing Me",
+      "artist": "Green Day",
+      "genre": [
+        "Rock",
+        "Alternative"
+      ],
+      "descriptors": [
+        "lyrical",
+        "upbeat",
+        "gritty"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/af/90/27/af9027e7-8a46-21b5-32ff-686733d37c57/093624866053.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "Always There",
+      "artist": "Greta Van Fleet",
+      "genre": [
+        "Rock"
+      ],
+      "descriptors": [
+        "romantic",
+        "emotional",
+        "happy"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/17/bc/60/17bc60ef-9587-526f-886e-b2f81cda3d5d/19UMGIM78868.rgb.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "Scarlet",
+      "artist": "The Rolling Stones & Jimmy Page",
+      "genre": [
+        "Rock"
+      ],
+      "descriptors": [
+        "relaxed",
+        "upbeat",
+        "catchy"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ef/38/ab/ef38ab4c-2a84-7a8b-71c0-aebb006d856f/20UMGIM56409.rgb.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "Miente",
+      "artist": "Bengala",
+      "genre": [
+        "Rock",
+        "Latin"
+      ],
+      "descriptors": [
+        "upbeat",
+        "loud",
+        "emotional"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/97/07/3e/97073e68-e5ed-c5d9-db0a-5becf633c3bd/00602517184473.rgb.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "Guitarras Blancas",
+      "artist": "Red Hot Chili Peppers",
+      "genre": [
+        "Rock"
+      ],
+      "descriptors": [
+        "upbeat",
+        "happy",
+        "catchy"
+      ],
+      "image": "images/record.jpg"
+    },
+    {
+      "title": "Love Buzz",
+      "artist": "Nirvana",
+      "genre": [
+        "Rock"
+      ],
+      "descriptors": [
+        "gritty",
+        "loud",
+        "romantic"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/ca/ca/7d/mzi.amsdznjy.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "Hotel California",
+      "artist": "Eagles",
+      "genre": [
+        "Rock"
+      ],
+      "descriptors": [
+        "nostalgic",
+        "intense",
+        "lyrical"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/88/16/2c/88162c3d-46db-8321-61f3-3a47404cfe76/075596050920.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "No Quarter",
+      "artist": "Led Zeppelin",
+      "genre": [
+        "Rock"
+      ],
+      "descriptors": [
+        "slow",
+        "nostalgic",
+        "experimental"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/53/62/c4/5362c4ea-0ff6-0279-9dca-6e05931587eb/dj.aeaokiej.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "This Is Why",
+      "artist": "Paramore",
+      "genre": [
+        "Alternative",
+        "Rock"
+      ],
+      "descriptors": [
+        "lyrical",
+        "upbeat",
+        "dancy"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/21/de/99/21de99a3-6eb6-5372-6a96-40d992808d9c/075679716224.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "The Adults Are Talking",
+      "artist": "The Strokes",
+      "genre": [
+        "Alternative",
+        "Rock"
+      ],
+      "descriptors": [
+        "upbeat",
+        "happy",
+        "catchy"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/62/a6/ff/62a6ff2a-95c9-5302-31f4-2dcca9e40323/886448281085.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "Stick Season",
+      "artist": "Noah Kahan",
+      "genre": [
+        "Alternative"
+      ],
+      "descriptors": [
+        "emotional",
+        "romantic",
+        "sad"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/7b/cc/cf/7bcccf54-8bf4-5e03-951e-c7582f35b09d/23UMGIM59938.rgb.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "Love Me",
+      "artist": "The 1975",
+      "genre": [
+        "Alternative"
+      ],
+      "descriptors": [
+        "happy",
+        "upbeat",
+        "light-hearted"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/9a/a1/6e/9aa16ec1-bb87-17e6-6caf-2b628f65f4ca/886446898124.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "Kyoto",
+      "artist": "Phoebe Bridgers",
+      "genre": [
+        "Alternative"
+      ],
+      "descriptors": [
+        "upbeat",
+        "emotional",
+        "lyrical"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/39/91/4f/39914f60-e9aa-4ae9-3962-44b0a5e5d570/656605150062.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "Flourescent Adolescent",
+      "artist": "Arctic Monkeys",
+      "genre": [
+        "Alternative",
+        "Rock"
+      ],
+      "descriptors": [
+        "light-hearted",
+        "upbeat",
+        "catchy"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music2/v4/9d/de/55/9dde550e-5c6a-e039-ae38-470f378968ea/887158453496_Cover.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "Tobacco Sunburst",
+      "artist": "The Neighbourhood",
+      "genre": [
+        "Alternative"
+      ],
+      "descriptors": [
+        "emotional",
+        "nostalgic",
+        "slow"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/bd/0a/46/bd0a46b9-4eb6-bd63-c936-d66728a41dae/886448552550.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "Take Me Out",
+      "artist": "Franz Ferdinand",
+      "genre": [
+        "Alternative",
+        "Rock"
+      ],
+      "descriptors": [
+        "upbeat",
+        "emotional",
+        "gritty"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/83/c6/54/83c6541f-3b90-b46a-b46a-17bf8fd9af16/5034202113645.png/600x600bb.jpg"
+    },
+    {
+      "title": "Bad Religion",
+      "artist": "Frank Ocean",
+      "genre": [
+        "Alternative",
+        "RnB"
+      ],
+      "descriptors": [
+        "emotional",
+        "intense",
+        "experimental"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/04/f8/63/04f863fc-2852-604f-c910-a97ac069506b/12UMGIM40339.rgb.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "Me & My Dog",
+      "artist": "boygenius",
+      "genre": [
+        "Indie"
+      ],
+      "descriptors": [
+        "sad",
+        "emotional",
+        "lyrical"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/3d/e1/dc/3de1dc68-fcdf-3cc4-721a-d00cdc5f984b/744861140856.png/600x600bb.jpg"
+    },
+    {
+      "title": "if u want",
+      "artist": "Keni Titus",
+      "genre": [
+        "Indie"
+      ],
+      "descriptors": [
+        "romantic",
+        "upbeat",
+        "bubbly"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/79/77/3b/79773b22-124e-8adc-5154-c6ed3642256f/197876573339.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "Chaise Longue",
+      "artist": "Wet Leg",
+      "genre": [
+        "Indie",
+        "Alternative"
+      ],
+      "descriptors": [
+        "experimental",
+        "light-hearted",
+        "upbeat"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/35/35/62/35356221-6b62-4f95-b38c-7fad4b8f6105/887828049660.png/600x600bb.jpg"
+    },
+    {
+      "title": "Little Bit More",
+      "artist": "Mk.gee",
+      "genre": [
+        "Indie"
+      ],
+      "descriptors": [
+        "relaxed",
+        "nostalgic",
+        "gritty"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d3/ea/e4/d3eae41a-be38-575d-7b07-3fc1c2e7142d/193436368681_FINALARTWORK.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "Heavy",
+      "artist": "The Marias",
+      "genre": [
+        "Indie"
+      ],
+      "descriptors": [
+        "emotional",
+        "relaxed",
+        "lyrical"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/0b/67/3f/0b673fd4-5e49-fccd-6193-3076bef03f53/075679792389.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "Bags",
+      "artist": "Clairo",
+      "genre": [
+        "Indie"
+      ],
+      "descriptors": [
+        "bubbly",
+        "relaxed",
+        "upbeat"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/3c/7d/ec/3c7dec29-623e-1915-c111-03cfccc4d136/19UMGIM43559.rgb.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "New Slang",
+      "artist": "The Shins",
+      "genre": [
+        "Indie"
+      ],
+      "descriptors": [
+        "emotional",
+        "relaxed",
+        "lyrical"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/y2003/m10/d20/h21/s05.lcrggtrf.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "CASPER",
+      "artist": "Eli",
+      "genre": [
+        "Indie",
+        "Electronic"
+      ],
+      "descriptors": [
+        "emotional",
+        "upbeat",
+        "lyrical"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/0f/1e/d2/0f1ed2cf-0d62-e3d7-8409-96c04df84e92/196815533922.png/600x600bb.jpg"
+    },
+    {
+      "title": "doomsday",
+      "artist": "Lizzy McAlpine",
+      "genre": [
+        "Indie"
+      ],
+      "descriptors": [
+        "sad",
+        "emotional",
+        "intense"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/11/6a/64/116a64ee-0db3-4e59-bd86-f44008e47f85/5056167170006.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "I Remember Everything",
+      "artist": "Zach Bryan ft. Kacey Musgraves",
+      "genre": [
+        "Country"
+      ],
+      "descriptors": [
+        "emotional",
+        "sad",
+        "lyrical"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/79/ab/a0/79aba090-8e3d-50f6-f87d-fde3fbcdc6ca/23UM1IM52287.rgb.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "Last Night",
+      "artist": "Morgan Wallen",
+      "genre": [
+        "Country"
+      ],
+      "descriptors": [
+        "emotional",
+        "nostalgic",
+        "romantic"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/86/cc/00/86cc001c-2efc-9ebb-8290-17f4f3ba3e4a/23UMGIM08087.rgb.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "Fast Car",
+      "artist": "Luke Combs",
+      "genre": [
+        "Country"
+      ],
+      "descriptors": [
+        "nostalgic",
+        "emotional",
+        "romantic"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/7d/24/14/7d241439-671a-d957-9613-2f738f43a064/196589485991.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "Wait in the Truck",
+      "artist": "HARDY ft. Lainey Wilson",
+      "genre": [
+        "Country"
+      ],
+      "descriptors": [
+        "gritty",
+        "intense",
+        "emotional"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/0f/59/b8/0f59b846-1387-5467-2d78-4f61e9b23f88/805570071180.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "Heart Like a Truck",
+      "artist": "Lainey Wilson",
+      "genre": [
+        "Country"
+      ],
+      "descriptors": [
+        "emotional",
+        "lyrical",
+        "upbeat"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/6d/59/51/6d595157-517a-5875-c2ab-f7e08d1b1cb9/4050538875423.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "Tennessee Whiskey",
+      "artist": "Chris Stapleton",
+      "genre": [
+        "Country"
+      ],
+      "descriptors": [
+        "romantic",
+        "slow",
+        "emotional"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e2/4b/60/e24b6016-8278-bb18-cf5d-d44bf68371da/00602547223838.rgb.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "Jolene",
+      "artist": "Dolly Parton",
+      "genre": [
+        "Country"
+      ],
+      "descriptors": [
+        "emotional",
+        "lyrical",
+        "romantic"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/cb/f4/a5/cbf4a557-e9cb-94a5-4482-0f9bb6984928/828768124123.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "Before He Cheats",
+      "artist": "Carrie Underwood",
+      "genre": [
+        "Country"
+      ],
+      "descriptors": [
+        "gritty",
+        "intense",
+        "loud"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/e7/14/80/e714805d-8aff-9e66-b25f-c75e5683a130/mzi.omppwbeg.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "Take Me Home, Country Roads",
+      "artist": "John Denver",
+      "genre": [
+        "Country"
+      ],
+      "descriptors": [
+        "nostalgic",
+        "light-hearted",
+        "happy"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/c6/c7/6f/c6c76f73-fcc7-93f7-ced1-2a74c9bdeead/196589072375.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "The Gambler",
+      "artist": "Kenny Rogers",
+      "genre": [
+        "Country"
+      ],
+      "descriptors": [
+        "lyrical",
+        "relaxed",
+        "nostalgic"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/37/fa/d1/mzi.ecmonpil.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "La Falda",
+      "artist": "Myke Towers",
+      "genre": [
+        "Latin"
+      ],
+      "descriptors": [
+        "dancy",
+        "gritty",
+        "bass"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/fd/f9/40/fdf9402c-95ae-8152-17b0-984649c6172a/5054197903205.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "DIABLA",
+      "artist": "Figa Flawas & Mushkaa",
+      "genre": [
+        "Latin"
+      ],
+      "descriptors": [
+        "loud",
+        "intense",
+        "experimental"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/60/7f/5b/607f5b4e-871b-88a7-5aa4-e147e4b96948/8445162878494.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "Ojitos Lindos",
+      "artist": "Bad Bunny & Bomba Est\u00c3\u00a9reo",
+      "genre": [
+        "Latin"
+      ],
+      "descriptors": [
+        "romantic",
+        "lyrical",
+        "relaxed"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/3e/04/eb/3e04ebf6-370f-f59d-ec84-2c2643db92f1/196626945068.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "Provenza",
+      "artist": "Karol G",
+      "genre": [
+        "Latin"
+      ],
+      "descriptors": [
+        "light-hearted",
+        "dancy",
+        "happy"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/4b/91/32/4b91325f-a1ae-05d8-523d-011549d20a42/22UMGIM40133.rgb.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "Pepas",
+      "artist": "Farruko",
+      "genre": [
+        "Latin"
+      ],
+      "descriptors": [
+        "loud",
+        "bass",
+        "dancy"
+      ],
+      "image": "images/record.jpg"
+    },
+    {
+      "title": "Cuando Pasa el Temblor",
+      "artist": "Luis Fonsi ft. Daddy Yankee",
+      "genre": [
+        "Latin"
+      ],
+      "descriptors": [
+        "upbeat",
+        "catchy",
+        "happy"
+      ],
+      "image": "images/record.jpg"
+    },
+    {
+      "title": "D\u00c3\u00a1kiti",
+      "artist": "Bad Bunny & Jhay Cortez",
+      "genre": [
+        "Latin"
+      ],
+      "descriptors": [
+        "bass",
+        "romantic",
+        "relaxed"
+      ],
+      "image": "images/record.jpg"
+    },
+    {
+      "title": "512",
+      "artist": "Mora & JHAYCO",
+      "genre": [
+        "Latin"
+      ],
+      "descriptors": [
+        "catchy",
+        "romantic",
+        "bass"
+      ],
+      "image": "images/record.jpg"
+    },
+    {
+      "title": "BUENOS AIRES",
+      "artist": "NATHY PELUSO",
+      "genre": [
+        "Latin"
+      ],
+      "descriptors": [
+        "experimental",
+        "lyrical",
+        "intense"
+      ],
+      "image": "images/record.jpg"
+    },
+    {
+      "title": "La Bicicleta",
+      "artist": "Carlos Vives & Shakira",
+      "genre": [
+        "Latin"
+      ],
+      "descriptors": [
+        "light-hearted",
+        "happy",
+        "bubbly"
+      ],
+      "image": "images/record.jpg"
+    },
+    {
+      "title": "Super Shy",
+      "artist": "NewJeans",
+      "genre": [
+        "K-pop"
+      ],
+      "descriptors": [
+        "bubbly",
+        "catchy",
+        "light-hearted"
+      ],
+      "image": "images/record.jpg"
+    },
+    {
+      "title": "Seven",
+      "artist": "Jungkook ft. Latto",
+      "genre": [
+        "K-pop"
+      ],
+      "descriptors": [
+        "romantic",
+        "bass",
+        "happy"
+      ],
+      "image": "images/record.jpg"
+    },
+    {
+      "title": "ETA",
+      "artist": "NewJeans",
+      "genre": [
+        "K-pop"
+      ],
+      "descriptors": [
+        "light-hearted",
+        "catchy",
+        "bubbly"
+      ],
+      "image": "images/record.jpg"
+    },
+    {
+      "title": "Shut Down",
+      "artist": "BLACKPINK",
+      "genre": [
+        "K-pop"
+      ],
+      "descriptors": [
+        "bass",
+        "gritty",
+        "intense"
+      ],
+      "image": "images/record.jpg"
+    },
+    {
+      "title": "God's Menu",
+      "artist": "Stray Kids",
+      "genre": [
+        "K-pop"
+      ],
+      "descriptors": [
+        "loud",
+        "experimental",
+        "intense"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/a8/99/a9/a899a9bb-bddc-1ce6-61d0-bea282420aa3/192641939464_Cover.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "Love Dive",
+      "artist": "IVE",
+      "genre": [
+        "K-pop"
+      ],
+      "descriptors": [
+        "romantic",
+        "bubbly",
+        "catchy"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/67/f8/16/67f8164a-bfc2-f29b-e241-800426a968ef/cover_KM0015013_1.jpg/600x600bb.jpg"
+    },
+    {
+      "title": "Case 143",
+      "artist": "Stray Kids",
+      "genre": [
+        "K-pop"
+      ],
+      "descriptors": [
+        "catchy",
+        "gritty",
+        "upbeat"
+      ],
+      "image": "images/record.jpg"
+    },
+    {
+      "title": "Pink Venom",
+      "artist": "BLACKPINK",
+      "genre": [
+        "K-pop"
+      ],
+      "descriptors": [
+        "intense",
+        "bass",
+        "loud"
+      ],
+      "image": "images/record.jpg"
+    },
+    {
+      "title": "Hype Boy",
+      "artist": "NewJeans",
+      "genre": [
+        "K-pop"
+      ],
+      "descriptors": [
+        "happy",
+        "bubbly",
+        "catchy"
+      ],
+      "image": "images/record.jpg"
+    },
+    {
+      "title": "Butter",
+      "artist": "BTS",
+      "genre": [
+        "K-pop"
+      ],
+      "descriptors": [
+        "bubbly",
+        "upbeat",
+        "catchy"
+      ],
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/41/c8/dc/41c8dcd8-f883-adde-c762-dc49383b6b58/196006720476_Cover.jpg/600x600bb.jpg"
+    }
+  ]
 }

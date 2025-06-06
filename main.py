@@ -1,6 +1,8 @@
 import sys
 import json
+import requests
 
+from io import BytesIO
 from PySide6.QtWidgets import (
     QApplication,
     QCheckBox,
@@ -18,7 +20,11 @@ from PySide6.QtGui import QPixmap
 from functools import partial
 from PySide6.QtCore import Qt
 
-
+#GLOBAL VARIABLES
+displayWhat = [False, False] #artist, song
+preferences = []
+songRecList = []
+artistRecList = []
 
 #FUNCTION DECL
 #--------------------------------------------------------------------------------------------------------------
@@ -30,12 +36,6 @@ def readJSON(file, key):
         return data[key]
     else: 
         return None
-
-#GLOBAL VARIABLES
-displayWhat = [False, False] #artist, song
-preferences = []
-songRecList = []
-artistRecList = []
 
 #TODO: MOVE TO ANOTHER FILE 
 #SEARCHING UTILITY
@@ -115,15 +115,28 @@ def createErrorAlert (msg):
     msg_box.exec()
 
 #fill in the info for songs 
-def fillSongDisplay(displayGrid, title, artist, genre, descriptors, row, col):
+def fillSongDisplay(displayGrid, title, artist, genre, descriptors, image_url, row, col):
     displayInfoWidget = QVBoxLayout()
     
     # --- Image handling ---
-    scene = QGraphicsScene()
-    pixmap = QPixmap("images/record.jpg")
-    image = QLabel()
+    pixmap = QPixmap()
 
+    if image_url.startswith("http"):
+        try:
+            response = requests.get(image_url)
+            if response.status_code == 200:
+                image_data = BytesIO(response.content)
+                pixmap.loadFromData(image_data.read())
+            else:
+                pixmap.load("images/record.jpg")
+        except Exception as e:
+            print(f"Error loading image from URL: {e}")
+            pixmap.load("images/record.jpg")
+    else:
+        pixmap.load(image_url)
+    
     pixmap = pixmap.scaled(150, 150, Qt.KeepAspectRatio) 
+    image = QLabel()
     image.setPixmap(pixmap)
     image.setAlignment(Qt.AlignCenter)
     image.setFixedSize(150, 150)
@@ -199,7 +212,7 @@ def displayRecs(displayGrid):
         for i, (song, score) in enumerate(songRecList):
             col = (i % colMax) + colNext
             currentRow = i // colMax
-            fillSongDisplay(displayGrid, song["title"], song["artist"], song["genre"], song["descriptors"], currentRow, col)
+            fillSongDisplay(displayGrid, song["title"], song["artist"], song["genre"], song["descriptors"], song["image"], currentRow, col)
 
 def randomRecs(displayGrid): #TODO: PUT ON BACKBURNER FOR NOW 
     colNext = 0
