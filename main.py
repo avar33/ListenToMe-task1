@@ -14,16 +14,21 @@ from PySide6.QtWidgets import (
     QSizePolicy, 
     QGraphicsView, 
     QGraphicsScene,
-    QGraphicsPixmapItem
+    QGraphicsPixmapItem, 
+    QScrollArea
 )
 
 from PySide6.QtUiTools import QUiLoader
 from PySide6.QtGui import QPixmap
 from functools import partial
+from PySide6.QtCore import Qt
+
 
 #GLOBAL VARIABLES
 displayWhat = [False, False]
 preferences = []
+songReccList = []
+artistReccList = []
 
 #FUNCTION DECL
 #--------------------------------------------------------------------------------------------------------------
@@ -48,25 +53,27 @@ def searchClicked(artistBox, songsBox, checkboxes):
         #if artists then search artist json
         #if songs then search songs json
         print("IN LOOP")
-        rankReccs()
+        returnReccs()
 
-def rankReccs():
-    global displayWhat
-    global preferences
+def returnReccs():
+    global displayWhat, preferences, songReccList, artistReccList
+    songReccList.clear()
+    artistReccList.clear()
     
     if displayWhat[0] == True:
         artists = readJSON("artists.json", 'artists')
-        ranked_artists = assignRanks(artists, preferences)
-        for artist, totalRank in ranked_artists:
-            print(f"{artist['artist']} - Score: {totalRank}")
-
-    if displayWhat[1] == True: #TODO: fix song selection
+        artistReccList = rankItems(artists, preferences)
+        
+    if displayWhat[1] == True: 
         songs = readJSON("songs.json", 'songs')
-        ranked_songs = assignRanks(songs, preferences)
-        for song, totalRank in ranked_songs:
-            print(f"{song['song']} - Score: {totalRank}")
+        songReccList = rankItems(songs, preferences)
+    
+    for artist, totalRank in artistReccList:
+        print(f"{artist['artist']} - Score: {totalRank}")
+    for song, totalRank in songReccList:
+        print(f"{song['title']} by {song['artist']} - Score: {totalRank}")
 
-def assignRanks(items, userChecked):
+def rankItems(items, userChecked):
     ranked = []
     for item in items:
         genreRank = len(set(item["genre"])& set(userChecked))
@@ -109,6 +116,36 @@ def createErrorAlert (msg):
     msg_box.setText(msg)
     msg_box.setWindowTitle("Error")
     msg_box.exec()
+
+def fillDisplayWidget(displayGrid, name, artist, genre, descriptors):
+    displayInfoWidget = QVBoxLayout()
+    
+    # --- Image handling ---
+    scene = QGraphicsScene()
+    pixmap = QPixmap("images/record.jpg")
+    image = QLabel()
+
+    pixmap = pixmap.scaled(150, 150, Qt.KeepAspectRatio) 
+    image.setPixmap(pixmap)
+    image.setAlignment(Qt.AlignCenter)
+    image.setFixedSize(150, 150)
+
+     # --- Labels ---
+    mainLabel = QLabel(name)
+    artist_genre = QLabel(artist, " -  genre")
+    descLabel = QLabel("word | word | word")
+
+    displayInfoWidget.addWidget(image)
+    displayInfoWidget.addWidget(mainLabel)
+    displayInfoWidget.addWidget(artist_genre)
+    displayInfoWidget.addWidget(descLabel)
+
+    # wrap layout in a QWidget
+    container = QWidget()
+    container.setLayout(displayInfoWidget) 
+
+    # add the widget to the grid
+    displayGrid.addWidget(container, z, i)
 #----------------------------------------------------------------
 #--------------------------------------------------------------------------------------------------------------
 
@@ -143,36 +180,13 @@ displayGrid = selectionWindow.findChild(QGridLayout, "displayGrid")
 if displayGrid:
     print("displayGrid found")
 
-for i in range(4):
-    '''
-    displayInfoWidget = loader.load("displayInfoWidget.ui", selectionWindow)
-    displayInfoWidget.setSizePolicy(QSizePolicy.MinimumExpanding, QSizePolicy.MinimumExpanding)
-    if displayInfoWidget:
-        print("displayInfoW found")
-        displayInfoWidget.setStyleSheet("background-color: lightblue;")
-    '''
-    displayInfoWidget = QVBoxLayout()
-    scene = QGraphicsScene()
-    pixmap = QPixmap("TaylorSwift.jpg")
-    item = QGraphicsPixmapItem(pixmap)
-    scene.addItem(item)
-    image = QGraphicsView()
-    image.setScene(scene)
-    image.show()
-    mainLabel = QLabel("mock name")
-    artist_genre = QLabel("artist - genre")
-    descLabel = QLabel("word | word | word")
-    displayInfoWidget.addWidget(image)
-    displayInfoWidget.addWidget(mainLabel)
-    displayInfoWidget.addWidget(artist_genre)
-    displayInfoWidget.addWidget(descLabel)
+z = 0
+for i in range(8):
+    if i >= 4: 
+        z = 1
+        i = i - 4
+    #fillDisplayGrid(displayGrid)
 
-    # Wrap layout in a QWidget
-    container = QWidget()
-    container.setLayout(displayInfoWidget) 
-
-    # Now you can add the widget to the grid
-    displayGrid.addWidget(container, 0, i)
 
 selectionWindow.show()
 app.exec()
