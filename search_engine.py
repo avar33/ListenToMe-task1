@@ -1,5 +1,5 @@
 from PySide6.QtWidgets import QMessageBox
-from dataLoader import DataLoader
+from data_loader import DataLoader
         
 #error message box 
 def createErrorAlert (msg):
@@ -73,7 +73,7 @@ class SearchEngine:
                 print(f"{song['title']} by {song['artist']} - Score: {total_rank}")
 
     #search button overall functionality 
-    def search_clicked(self, artist_box, songs_box, checkboxes, display_grid):
+    def search_clicked(self, artist_box, songs_box, checkboxes, display_grid, artist_title, song_title):
         self.set_rec_type(artist_box, songs_box)
         self.set_pref(checkboxes)
         if self.display_what != [False, False] and self.preferences != []:
@@ -81,10 +81,8 @@ class SearchEngine:
             #if songs then search songs json
             print("IN LOOP")
             self.return_recs()
-            '''
-            artist_title.setHidden(not display_what[0])
-            song_title.setHidden(not display_what[1])
-            display_recs(display_grid)
-            '''
-            #TODO: FIX THISI ONCE THE OTHER CLASSES ARE DONE
-
+            #TODO: FIX THIS
+            artist_title.setHidden(not self.display_what[0])
+            song_title.setHidden(not self.display_what[0])
+            self.display_recs(display_grid)
+            

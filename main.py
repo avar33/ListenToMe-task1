@@ -37,7 +37,6 @@ def readJSON(file, key):
     else: 
         return None
 
-#TODO: MOVE TO ANOTHER FILE 
 #SEARCHING UTILITY
 #----------------------------------------------------------------
 #search button overall functionality 

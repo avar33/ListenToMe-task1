@@ -1,25 +1,15 @@
-import sys
-import json
 import requests
 
 from io import BytesIO
 from PySide6.QtWidgets import (
-    QApplication,
-    QCheckBox,
-    QMessageBox,
     QLabel,
-    QPushButton,
     QVBoxLayout,
-    QGridLayout,
-    QWidget, 
-    QGraphicsScene,
+    QWidget
 )
 
-from PySide6.QtUiTools import QUiLoader
 from PySide6.QtGui import QPixmap
-from functools import partial
 from PySide6.QtCore import Qt
-from searchEngine import SearchEngine
+from search_engine import SearchEngine
 
 class RecDisplayManager:
     def __init__(self, display_grid):
