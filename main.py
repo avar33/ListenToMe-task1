@@ -75,7 +75,7 @@ def rankItems(items, userChecked):
     for item in items:
         genreRank = len(set(item["genre"])& set(userChecked))
         descRank = len(set(item["descriptors"])& set(userChecked))
-        totalRank = genreRank + descRank
+        totalRank = (genreRank*2) + descRank
         if totalRank > 0:
             ranked.append((item, totalRank))
 

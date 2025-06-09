@@ -1,7 +1,7 @@
 import requests
 import json
+from dataLoader import DataLoader
 from main import readJSON
-
 
 def writeJSON(file, key, new_data):
     with open(file, "r") as f:
@@ -19,8 +19,10 @@ def writeJSON(file, key, new_data):
 url = "https://itunes.apple.com/search"
 
 #read existing data 
-songs = readJSON("songs.json", 'songs')
-artists = readJSON("artists.json", 'artists') 
+songs = DataLoader.read_json("songs.json", 'songs')
+#songs = readJSON("songs.json", 'songs')
+artists = DataLoader.read_json("artists.json", 'artists') 
+#artists = readJSON("artists.json", 'artists') 
 
 #-------- FILLLING SONG URLS ---------------------------------------------------------
 for song in songs:
@@ -46,7 +48,8 @@ for song in songs:
         song["image"] = "images/record.jpg"
 
 # write once after all songs are updated
-writeJSON("songs.json", "songs", songs)
+DataLoader.write_json("songs.json", "songs", songs)
+#writeJSON("songs.json", "songs", songs)
 
 print("song urls filled")
 #-------- EOF SONG URLS ---------------------------------------------------------------
@@ -74,7 +77,8 @@ for artist in artists:
         print(f"Failed to fetch image for {artist['artist']}: {e}")
         artist["image"] = "images/noProfile.jpg"
 
-writeJSON("artists.json", "artists", artists)
+DataLoader.write_json("artists.json", "artists", artists)
+#writeJSON("artists.json", "artists", artists)
 
 print("artist urls filled")
 #-------- EOF ARTIST URLS ---------------------------------------------------------------
