@@ -36,7 +36,6 @@ class RecDisplayManager:
 
     #fill anf format the info of each item in a grid square layout
     def fill_display(self, item, row, col, is_song = False):
-        print("in fill display")
         layout = QVBoxLayout()
         
         # --- Image ---
@@ -68,40 +67,10 @@ class RecDisplayManager:
         if not is_song:
             container.setStyleSheet("background-color: lightpink; font-family: 'Terminal';")
         self.grid.addWidget(container, row, col)
-      
-        
-    #fill in the info for artists #TODO: maybe delete
-    def fill_artist_display(self, artist, genre, descriptors, image_url, row, col):
-        layout = QVBoxLayout()
-        
-        # --- Image ---
-        pixmap = self.load_image(image_url, "images/noProfile.jpg")
-        pixmap = pixmap.scaled(150, 150, Qt.KeepAspectRatio) 
-        image = QLabel()
-        image.setPixmap(pixmap)
-        image.setAlignment(Qt.AlignCenter)
-        image.setFixedSize(150, 150)
-
-        # --- Labels ---
-        main_label = QLabel(f"{artist}")
-        artist_genre = QLabel(', '.join(genre))
-        desc_label = QLabel(" | ".join(descriptors))
-
-        layout.addWidget(image)
-        layout.addWidget(main_label)
-        layout.addWidget(artist_genre)
-        layout.addWidget(desc_label)
-
-        # wrap layout in a QWidget
-        container = QWidget()
-        container.setLayout(layout) 
-        container.setStyleSheet("background-color: lightpink; font-family: 'Terminal';")
-        self.grid.addWidget(container, row, col)
-        
+   
 
     #display in grid 
     def display_recs(self, artist_rec_list, song_rec_list, display_what):
-        print("in display recs")
         #empty current display
         while self.grid.count():
             child = self.grid.takeAt(0)
@@ -111,21 +80,16 @@ class RecDisplayManager:
         col_next = 0
         col_max = 4
         if display_what[0]: #artists
-            print("enter if 1")
             if display_what[1]:
-                print("enter if 2")
                 col_max = 2
             for i, (artist, score) in enumerate(artist_rec_list):
-                print("enter for 1")
                 col = i % col_max
                 current_row = (i // col_max)
                 self.fill_display(artist, current_row, col, is_song=False)
             col_next = 2 
 
         if display_what[1]: #songs
-            print("enter if 2")
             for i, (song, score) in enumerate(song_rec_list):
-                print("enter for 2")
                 col = (i % col_max) + col_next
                 current_row = i // col_max
                 self.fill_display(song, current_row, col, is_song=True)

@@ -29,14 +29,13 @@ class SearchEngine:
             createErrorAlert("Please select at least one box of the two labeled 'artists' and 'songs'")
         print(self.display_what)
 
-    #extrapolated preferences 
+    #input is read from the checkboxes seleceted and put into a 'preference' list if it fits within the length constraints 
     def set_pref(self, checkboxes):
-        self.preferences.clear()
         temp = []
         for checkbox in checkboxes:
             if checkbox.isChecked():
                 temp.append(checkbox.text())
-
+    
         if len(temp) < 3 or len(temp) > 6:
             createErrorAlert("The amount of boxes checked is not within range. Please select 3-6 musical preferences.")
         else:
@@ -64,14 +63,14 @@ class SearchEngine:
         if self.display_what[0] == True:
             artists = DataLoader.read_json("artists.json", 'artists')
             self.artist_rec_list = self.rank_items(artists)
-            for artist, total_rank in self.artist_rec_list:
-                print(f"{artist['artist']} - Score: {total_rank}")
+            #for artist, total_rank in self.artist_rec_list:
+                #print(f"{artist['artist']} - Score: {total_rank}")
             
         if self.display_what[1] == True: 
             songs = DataLoader.read_json("songs.json", 'songs')
             self.song_rec_list = self.rank_items(songs)
-            for song, total_rank in self.song_rec_list:
-                print(f"{song['title']} by {song['artist']} - Score: {total_rank}")
+            #for song, total_rank in self.song_rec_list:
+                #print(f"{song['title']} by {song['artist']} - Score: {total_rank}")
 
     #search button overall functionality 
     def search_clicked(self, artist_box, songs_box, checkboxes, display_grid, artist_title, song_title):
