@@ -9,7 +9,7 @@ from UI.main_ui import create_ui
 #--------------------------------------------------------------------------------------------------------------
 app = QApplication(sys.argv)
 loader = QUiLoader()
-selectionWindow = loader.load("UI/main.ui", None)
+selectionWindow = loader.load("UI/.ui files/main.ui", None)
 create_ui(selectionWindow)
 selectionWindow.show()
 app.exec()

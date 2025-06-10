@@ -537,6 +537,112 @@
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QGridLayout" name="gridLayout">
+    <item row="5" column="0">
+     <layout class="QHBoxLayout" name="currentHorizontal">
+      <item>
+       <widget class="QLabel" name="current">
+        <property name="font">
+         <font>
+          <family>Terminal</family>
+          <pointsize>11</pointsize>
+          <underline>true</underline>
+         </font>
+        </property>
+        <property name="text">
+         <string>Current User:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="userLabel">
+        <property name="font">
+         <font>
+          <family>Terminal</family>
+          <pointsize>11</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>John Doe</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_4">
+        <property name="orientation">
+         <enum>Qt::Orientation::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </item>
+    <item row="2" column="0" alignment="Qt::AlignmentFlag::AlignHCenter">
+     <widget class="QPushButton" name="searchButton">
+      <property name="maximumSize">
+       <size>
+        <width>782</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Terminal</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>    Search!    </string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0" alignment="Qt::AlignmentFlag::AlignHCenter">
+     <widget class="QLabel" name="label">
+      <property name="font">
+       <font>
+        <family>Bahnschrift</family>
+        <pointsize>8</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>click search to see music that fits your selections!</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="0">
+     <layout class="QHBoxLayout" name="buttonHLayout">
+      <item alignment="Qt::AlignmentFlag::AlignRight">
+       <widget class="QPushButton" name="saveButton">
+        <property name="font">
+         <font>
+          <family>Terminal</family>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>   Save Recommendations!  </string>
+        </property>
+       </widget>
+      </item>
+      <item alignment="Qt::AlignmentFlag::AlignLeft">
+       <widget class="QPushButton" name="changeUserButton">
+        <property name="font">
+         <font>
+          <family>Terminal</family>
+          <pointsize>11</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>     Change User      </string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
     <item row="3" column="0">
      <widget class="QScrollArea" name="scrollArea">
       <property name="widgetResizable">
@@ -548,7 +654,7 @@
          <x>0</x>
          <y>0</y>
          <width>776</width>
-         <height>374</height>
+         <height>258</height>
         </rect>
        </property>
        <layout class="QGridLayout" name="gridLayout_2">
@@ -593,37 +699,6 @@
         </item>
        </layout>
       </widget>
-     </widget>
-    </item>
-    <item row="2" column="0" alignment="Qt::AlignmentFlag::AlignHCenter">
-     <widget class="QPushButton" name="searchButton">
-      <property name="maximumSize">
-       <size>
-        <width>782</width>
-        <height>24</height>
-       </size>
-      </property>
-      <property name="font">
-       <font>
-        <family>Terminal</family>
-       </font>
-      </property>
-      <property name="text">
-       <string>    Search!    </string>
-      </property>
-     </widget>
-    </item>
-    <item row="1" column="0" alignment="Qt::AlignmentFlag::AlignHCenter">
-     <widget class="QLabel" name="label">
-      <property name="font">
-       <font>
-        <family>Bahnschrift</family>
-        <pointsize>8</pointsize>
-       </font>
-      </property>
-      <property name="text">
-       <string>click search to see music that fits your selections!</string>
-      </property>
      </widget>
     </item>
     <item row="0" column="0">
@@ -811,6 +886,33 @@
        <layout class="QGridLayout" name="preferenceGrid"/>
       </item>
      </layout>
+    </item>
+    <item row="6" column="0" alignment="Qt::AlignmentFlag::AlignHCenter">
+     <widget class="QLabel" name="label_9">
+      <property name="font">
+       <font>
+        <family>Bahnschrift</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>if you'd like to save the reccomendations under the current user click &quot;save&quot;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="label_11">
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="0">
+     <widget class="QLabel" name="label_12">
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
     </item>
    </layout>
   </widget>
