@@ -6,14 +6,14 @@ from PySide6.QtWidgets import (
 )
 from types import SimpleNamespace
 from functools import partial
-from data_loader import DataLoader
-from search_engine import SearchEngine
+from data_managers.data_loader import DataLoader
+from search_managers.search_engine import SearchEngine
 
 # builds the ui that will be displayed on the main window 
 def create_ui(window):
     ui = SimpleNamespace() #blank item
     ui.checkboxes = []
-    descriptors = DataLoader.read_json("data.json", 'descriptors')
+    descriptors = DataLoader.read_json("data_managers/json_files/data.json", 'descriptors')
 
     # reccomendation type selection boxes
     ui.artist_box = window.findChild(QCheckBox, "artistBox")

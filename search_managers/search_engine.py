@@ -1,6 +1,6 @@
 from PySide6.QtWidgets import QMessageBox
-from data_loader import DataLoader
-from rec_display_manager import RecDisplayManager
+from data_managers.data_loader import DataLoader
+from UI.rec_display_manager import RecDisplayManager
         
 #error message box 
 def createErrorAlert (msg):
@@ -61,13 +61,13 @@ class SearchEngine:
         self.artist_rec_list.clear()
         
         if self.display_what[0] == True:
-            artists = DataLoader.read_json("artists.json", 'artists')
+            artists = DataLoader.read_json("data_managers/json_files/artists.json", 'artists')
             self.artist_rec_list = self.rank_items(artists)
             #for artist, total_rank in self.artist_rec_list:
                 #print(f"{artist['artist']} - Score: {total_rank}")
             
         if self.display_what[1] == True: 
-            songs = DataLoader.read_json("songs.json", 'songs')
+            songs = DataLoader.read_json("data_managers/json_files/songs.json", 'songs')
             self.song_rec_list = self.rank_items(songs)
             #for song, total_rank in self.song_rec_list:
                 #print(f"{song['title']} by {song['artist']} - Score: {total_rank}")

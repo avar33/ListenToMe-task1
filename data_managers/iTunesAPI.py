@@ -1,6 +1,6 @@
 import requests
 import json
-from data_loader import DataLoader
+from data_managers.data_loader import DataLoader
 from main import readJSON
 
 def writeJSON(file, key, new_data):
