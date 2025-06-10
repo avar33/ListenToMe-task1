@@ -38,6 +38,19 @@ def create_ui(window):
     ui.song_title.setHidden(True)
     ui.display_grid = window.findChild(QGridLayout, "displayGrid")
 
-    ui.searchButton.clicked.connect(partial(SearchEngine.searchClicked, ui.artist_box, ui.songs_box, ui.checkboxes, ui.display_grid, ui.artist_title, ui.song_title))
+    search_engine = SearchEngine("artists.json", "songs.json")
+
+    ui.search_button.clicked.connect(
+        partial(
+            search_engine.search_clicked,
+            ui.artist_box,
+            ui.songs_box,
+            ui.checkboxes,
+            ui.display_grid,
+            ui.artist_title,
+            ui.song_title
+        )
+    )
+
 
     return ui

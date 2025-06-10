@@ -1,5 +1,6 @@
 from PySide6.QtWidgets import QMessageBox
 from data_loader import DataLoader
+from rec_display_manager import RecDisplayManager
         
 #error message box 
 def createErrorAlert (msg):
@@ -62,27 +63,28 @@ class SearchEngine:
         
         if self.display_what[0] == True:
             artists = DataLoader.read_json("artists.json", 'artists')
-            artist_rec_list = self.rank_items(artists)
-            for artist, total_rank in artist_rec_list:
+            self.artist_rec_list = self.rank_items(artists)
+            for artist, total_rank in self.artist_rec_list:
                 print(f"{artist['artist']} - Score: {total_rank}")
             
         if self.display_what[1] == True: 
             songs = DataLoader.read_json("songs.json", 'songs')
-            song_rec_list = self.rank_items(songs)
-            for song, total_rank in song_rec_list:
+            self.song_rec_list = self.rank_items(songs)
+            for song, total_rank in self.song_rec_list:
                 print(f"{song['title']} by {song['artist']} - Score: {total_rank}")
 
     #search button overall functionality 
     def search_clicked(self, artist_box, songs_box, checkboxes, display_grid, artist_title, song_title):
         self.set_rec_type(artist_box, songs_box)
         self.set_pref(checkboxes)
-        if self.display_what != [False, False] and self.preferences != []:
-            #if artists then search artist json
-            #if songs then search songs json
+
+        if self.display_what != [False, False] and self.preferences:
             print("IN LOOP")
             self.return_recs()
-            #TODO: FIX THIS
+
             artist_title.setHidden(not self.display_what[0])
-            song_title.setHidden(not self.display_what[0])
-            self.display_recs(display_grid)
+            song_title.setHidden(not self.display_what[1])  # Fix: should reflect songs, not artists again
+
+            manager = RecDisplayManager(display_grid)
+            manager.display_recs(self.artist_rec_list, self.song_rec_list, self.display_what)
             

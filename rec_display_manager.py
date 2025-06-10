@@ -9,7 +9,6 @@ from PySide6.QtWidgets import (
 
 from PySide6.QtGui import QPixmap
 from PySide6.QtCore import Qt
-from search_engine import SearchEngine
 
 class RecDisplayManager:
     def __init__(self, display_grid):
@@ -36,7 +35,8 @@ class RecDisplayManager:
         return pixmap
 
     #fill anf format the info of each item in a grid square layout
-    def fill_display(self, item, row, col, is_song):
+    def fill_display(self, item, row, col, is_song = False):
+        print("in fill display")
         layout = QVBoxLayout()
         
         # --- Image ---
@@ -100,7 +100,8 @@ class RecDisplayManager:
         
 
     #display in grid 
-    def display_recs(self):
+    def display_recs(self, artist_rec_list, song_rec_list, display_what):
+        print("in display recs")
         #empty current display
         while self.grid.count():
             child = self.grid.takeAt(0)
@@ -109,17 +110,22 @@ class RecDisplayManager:
 
         col_next = 0
         col_max = 4
-        if SearchEngine.display_what[0]: #artists
-            if SearchEngine.display_what[1]:
+        if display_what[0]: #artists
+            print("enter if 1")
+            if display_what[1]:
+                print("enter if 2")
                 col_max = 2
-            for i, (artist, score) in enumerate(SearchEngine.artist_rec_list):
+            for i, (artist, score) in enumerate(artist_rec_list):
+                print("enter for 1")
                 col = i % col_max
                 current_row = (i // col_max)
-                self.fill_display(self.grid, artist, current_row, col, False)
+                self.fill_display(artist, current_row, col, is_song=False)
             col_next = 2 
 
-        if SearchEngine.display_what[1]: #songs
-            for i, (song, score) in enumerate(SearchEngine.song_rec_list):
+        if display_what[1]: #songs
+            print("enter if 2")
+            for i, (song, score) in enumerate(song_rec_list):
+                print("enter for 2")
                 col = (i % col_max) + col_next
                 current_row = i // col_max
-                self.fill_display(self.grid, song, current_row, col, True)
+                self.fill_display(song, current_row, col, is_song=True)
