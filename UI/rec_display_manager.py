@@ -69,7 +69,7 @@ class RecDisplayManager:
         self.grid.addWidget(container, row, col)
    
 
-    #display in grid 
+    #display recommendations in grid 
     def display_recs(self, artist_rec_list, song_rec_list, display_what):
         #empty current display
         while self.grid.count():

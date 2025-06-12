@@ -1,33 +1,24 @@
 from PySide6.QtWidgets import QMessageBox
 from data_managers.data_loader import DataLoader
 from UI.rec_display_manager import RecDisplayManager
-        
-#error message box 
-def createErrorAlert (msg):
-    msg_box = QMessageBox()
-    msg_box.setIcon(QMessageBox.Icon.Critical)
-    msg_box.setText(msg)
-    msg_box.setWindowTitle("Error")
-    msg_box.exec()
+from UI.ui_helpers import createErrorAlert
         
 class SearchEngine:
-    #display_what = [False, False]
-    #preferences = []
-    def __init__(self, artists_json, songs_json):
-        self.artists = artists_json
-        self.songs = songs_json 
-        self.display_what = [False, False] #[artists, songs]
-        self.preferences = []
-        self.song_rec_list = []
-        self.artist_rec_list = []
+    def __init__(self):
+        #self.artists = artists_json
+        #self.songs = songs_json 
+        self._display_what = [False, False] #[artists, songs]
+        self._preferences = []
+        self._song_rec_list = []
+        self._artist_rec_list = []
 
     #extrapolates whatever type of Recomendation is picked 
     def set_rec_type(self, artist_box, songs_box):
-        self.display_what[0] = artist_box.isChecked()
-        self.display_what[1]= songs_box.isChecked()
-        if(self.display_what == [0,0]):
+        self._display_what[0] = artist_box.isChecked()
+        self._display_what[1]= songs_box.isChecked()
+        if(self._display_what == [0,0]):
             createErrorAlert("Please select at least one box of the two labeled 'artists' and 'songs'")
-        print(self.display_what)
+        print(self._display_what)
 
     #input is read from the checkboxes seleceted and put into a 'preference' list if it fits within the length constraints 
     def set_pref(self, checkboxes):
@@ -37,17 +28,17 @@ class SearchEngine:
                 temp.append(checkbox.text())
     
         if len(temp) < 3 or len(temp) > 6:
-            createErrorAlert("The amount of boxes checked is not within range. Please select 3-6 musical preferences.")
+            createErrorAlert("The amount of boxes checked is not within range. Please select 3-6 musical _preferences.")
         else:
-            self.preferences = temp
-        print(self.preferences)
+            self._preferences = temp
+        print(self._preferences)
 
     #provide each item with a rank 
     def rank_items(self, items):
         ranked = []
         for item in items:
-            genre_rank = len(set(item["genre"])& set(self.preferences))
-            desc_rank = len(set(item["descriptors"])& set(self.preferences))
+            genre_rank = len(set(item["genre"])& set(self._preferences))
+            desc_rank = len(set(item["descriptors"])& set(self._preferences))
             total_rank = (genre_rank*2) + desc_rank
             if total_rank > 0:
                 ranked.append((item, total_rank))
@@ -57,19 +48,18 @@ class SearchEngine:
 
     #final recommendations 
     def return_recs(self):
-        self.song_rec_list.clear()
-        self.artist_rec_list.clear()
+        self._song_rec_list.clear()
+        self._artist_rec_list.clear()
         
-        if self.display_what[0] == True:
+        if self._display_what[0] == True:
             artists = DataLoader.read_json("data_managers/json_files/artists.json", 'artists')
-            self.artist_rec_list = self.rank_items(artists)
-            #for artist, total_rank in self.artist_rec_list:
-                #print(f"{artist['artist']} - Score: {total_rank}")
+            self._artist_rec_list = self.rank_items(artists)
+            print("printing from return recs")
             
-        if self.display_what[1] == True: 
+        if self._display_what[1] == True: 
             songs = DataLoader.read_json("data_managers/json_files/songs.json", 'songs')
-            self.song_rec_list = self.rank_items(songs)
-            #for song, total_rank in self.song_rec_list:
+            self._song_rec_list = self.rank_items(songs)
+            #for song, total_rank in self._song_rec_list:
                 #print(f"{song['title']} by {song['artist']} - Score: {total_rank}")
 
     #search button overall functionality 
@@ -77,13 +67,19 @@ class SearchEngine:
         self.set_rec_type(artist_box, songs_box)
         self.set_pref(checkboxes)
 
-        if self.display_what != [False, False] and self.preferences:
+        if self._display_what != [False, False] and self._preferences:
             print("IN LOOP")
             self.return_recs()
 
-            artist_title.setHidden(not self.display_what[0])
-            song_title.setHidden(not self.display_what[1])  # Fix: should reflect songs, not artists again
+            artist_title.setHidden(not self._display_what[0])
+            song_title.setHidden(not self._display_what[1])  # Fix: should reflect songs, not artists again
 
             manager = RecDisplayManager(display_grid)
-            manager.display_recs(self.artist_rec_list, self.song_rec_list, self.display_what)
+            manager.display_recs(self._artist_rec_list, self._song_rec_list, self._display_what)
+
+    def get_artist_list(self):
+        return self._artist_rec_list
+
+    def get_song_list(self):
+        return self._song_rec_list
             
