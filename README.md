@@ -3,7 +3,7 @@
 **Description:** "Listen to Me!" is a music recommendation app designed to help users discover songs and artists that align with their personal tastes.
 Users can choose whether they want recommendations for artists, songs, or both. After that, they can select 3 to 6 preferences from a set of options that reflect mood, genre, and style.
 
-Using these selected preferences, the app generates a ranked list of recommendations that best match the user's criteria—from most to least fitting. Every recommended item shares at least one attribute with the selected preferences, ensuring relevance in all results. 
+Using these selected preferences, the app generates a ranked list of recommendations that best match the user's criteria—from most to least fitting. Every recommended item shares at least one attribute with the selected preferences, ensuring relevance in all results. Users can save these recommendations in a csv under a username of their choosing.
 
 **Installations:**
   python 3.12.4 
