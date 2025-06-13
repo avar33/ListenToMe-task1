@@ -19,9 +19,9 @@ class ExportRecs:
         with open(filepath, mode='w', newline='', encoding='utf-8') as file:
             writer = csv.writer(file)
             if is_song:
-                writer.writerow(["Song", " Artist", " Genres", " Descriptors", " Score"])
+                writer.writerow(["Song", " Artist", " Genres", " Descriptors"])
             else:
-                writer.writerow(["Artist", " Genres", " Descriptors", " Score"])
+                writer.writerow(["Artist", " Genres", " Descriptors"])
 
             for item, score in list:
                 if not is_song:
