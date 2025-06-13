@@ -28,7 +28,17 @@
       </font>
      </property>
      <property name="text">
-      <string>Enter the new users name below:</string>
+      <string>Enter the new username below:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>**note: username must exclude any of the following characters '&lt;&gt;:&quot;/\|?*'</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
      </property>
     </widget>
    </item>
