@@ -59,9 +59,7 @@ class SearchEngine:
         if self._display_what[1] == True: 
             songs = DataLoader.read_json("data_managers/json_files/songs.json", 'songs')
             self._song_rec_list = self.rank_items(songs)
-            #for song, total_rank in self._song_rec_list:
-                #print(f"{song['title']} by {song['artist']} - Score: {total_rank}")
-
+        
     #search button overall functionality 
     def search_clicked(self, artist_box, songs_box, checkboxes, display_grid, artist_title, song_title):
         self.set_rec_type(artist_box, songs_box)
