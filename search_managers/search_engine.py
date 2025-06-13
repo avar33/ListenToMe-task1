@@ -82,4 +82,10 @@ class SearchEngine:
 
     def get_song_list(self):
         return self._song_rec_list
+    
+    def get_prefrences(self):
+        pref_string = ""
+        for item in self._preferences:
+            pref_string = pref_string + "_" + item
+        return pref_string
             
